@@ -1,0 +1,3 @@
+[submodule "hardware/lib/kicad-lib"]
+	path = hardware/lib/kicad-lib
+	url = git@github.com:cell-labs-ai/kicad-lib.git

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "nrobotics")(type "KiCad")(uri "${KIPRJMOD}/../lib/kicad-lib/nRobotics.kicad_sym")(options "")(descr ""))
+)

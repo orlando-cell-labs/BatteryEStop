@@ -1,0 +1,6 @@
+# KiCad local/generated files
+.history/
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache

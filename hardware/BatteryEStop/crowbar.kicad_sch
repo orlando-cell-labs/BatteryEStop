@@ -1,0 +1,29 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "461147ca-5072-4019-9bc1-837e1d33d39f")
+	(paper "A4")
+	(lib_symbols)
+	(text "SCF9550-45-14"
+		(exclude_from_sim no)
+		(at 157.988 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7416b2ee-e479-4801-8491-84dca67ed9a5")
+	)
+	(hierarchical_label "VLOAD"
+		(shape input)
+		(at 80.01 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d4a1d55-3441-4e13-b30e-a1dbbbc62844")
+	)
+)
