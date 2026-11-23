@@ -1552,7 +1552,7 @@
 	)
 	(text "need separate 16V reg\n"
 		(exclude_from_sim no)
-		(at 283.21 71.374 0)
+		(at 239.522 86.106 0)
 		(effects
 			(font
 				(size 1.905 1.905)
