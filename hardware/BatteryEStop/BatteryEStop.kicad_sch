@@ -902,8 +902,8 @@
 		)
 	)
 	(rectangle
-		(start 237.49 74.93)
-		(end 280.67 110.49)
+		(start 210.82 81.788)
+		(end 243.84 100.33)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1016,19 +1016,6 @@
 		)
 		(uuid "ee04a518-575c-459f-8143-9d19da7efb3e")
 	)
-	(text "MCU\nRegulators\nCrowbar (SCF9550-45-14)\n"
-		(exclude_from_sim no)
-		(at 143.51 35.56 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-				(color 255 153 0 1)
-			)
-			(justify left)
-		)
-		(uuid "0aae972a-a3cb-4b07-b5e6-8ff2a312eb16")
-	)
 	(text "git add . ':!hardware/lib/kicad-lib'"
 		(exclude_from_sim no)
 		(at 195.58 179.07 0)
@@ -1041,7 +1028,7 @@
 	)
 	(text "PWR OUT"
 		(exclude_from_sim no)
-		(at 237.49 73.152 0)
+		(at 210.82 80.01 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1052,7 +1039,7 @@
 	)
 	(text "separate +16V rail"
 		(exclude_from_sim no)
-		(at 153.162 132.08 0)
+		(at 151.13 129.032 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1123,7 +1110,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 93.98) (xy 251.46 97.79)
+			(xy 218.44 88.9) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1140,16 +1127,6 @@
 			(type default)
 		)
 		(uuid "1b0d5b05-1edc-4266-a4b3-b7ed8fdb72d6")
-	)
-	(wire
-		(pts
-			(xy 251.46 91.44) (xy 255.27 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d3a215c-fa6e-444f-8eef-d7a7733d60b7")
 	)
 	(wire
 		(pts
@@ -1200,16 +1177,6 @@
 			(type default)
 		)
 		(uuid "3ce6d136-3a74-48b3-a2e5-4f133f03c778")
-	)
-	(wire
-		(pts
-			(xy 251.46 87.63) (xy 251.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e602ae3-7203-40ac-9b47-4670ba379a83")
 	)
 	(wire
 		(pts
@@ -1333,7 +1300,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 93.98) (xy 255.27 93.98)
+			(xy 218.44 88.9) (xy 222.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1350,6 +1317,16 @@
 			(type default)
 		)
 		(uuid "df1df276-6d8e-4fad-ab8a-547132805266")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e290e0af-3980-4dc3-b023-9c7049ec96ff")
 	)
 	(wire
 		(pts
@@ -1465,7 +1442,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 260.35 91.44 0)
+		(at 227.33 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1476,7 +1453,7 @@
 		(fields_autoplaced yes)
 		(uuid "56432dfc-6cbc-4f52-84e2-a5e3ec8363a8")
 		(property "Reference" "J1"
-			(at 262.89 91.4399 0)
+			(at 229.87 86.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1487,7 +1464,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 262.89 93.9799 0)
+			(at 229.87 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1498,7 +1475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 91.44 0)
+			(at 227.33 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1509,7 +1486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 91.44 0)
+			(at 227.33 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1497,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.35 91.44 0)
+			(at 227.33 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1875,7 +1852,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 97.79 0)
+		(at 218.44 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1885,7 +1862,7 @@
 		(dnp no)
 		(uuid "97d3947a-85b9-410d-82df-37284590cee4")
 		(property "Reference" "#PWR04"
-			(at 251.46 104.14 0)
+			(at 218.44 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1896,7 +1873,7 @@
 			)
 		)
 		(property "Value" "GNDLOAD"
-			(at 251.46 101.854 0)
+			(at 218.44 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,7 +1883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 97.79 0)
+			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1917,7 +1894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 97.79 0)
+			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1928,7 +1905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 97.79 0)
+			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2022,83 +1999,6 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 251.46 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b4d2e821-8b76-41a8-9362-22725e056595")
-		(property "Reference" "#PWR03"
-			(at 251.46 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VLOAD"
-			(at 251.46 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VLOAD\""
-			(at 251.46 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e672d3f7-35b1-4fe5-a060-e161f8d3795b")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2665,6 +2565,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "VOUT" input
+			(at 191.77 86.36 0)
+			(uuid "6b167054-1a78-4882-84eb-dbff71423880")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
