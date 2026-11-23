@@ -2932,7 +2932,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 138.43) (xy 36.83 138.43)
+			(xy 22.86 138.43) (xy 36.83 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3900,6 +3900,16 @@
 		)
 		(uuid "3544914f-5cd8-4c7d-adec-50eeb0d1b837")
 	)
+	(label "VLOAD"
+		(at 36.83 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c699eee-cd18-4a7f-8c13-9dbf1ffaeb51")
+	)
 	(label "BURNOFF_EN"
 		(at 151.13 54.61 0)
 		(effects
@@ -3909,6 +3919,16 @@
 			(justify left bottom)
 		)
 		(uuid "70bb76a7-2319-4648-9019-83ca4f13eed0")
+	)
+	(label "VLOAD"
+		(at 22.86 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8bcd707-1ffb-4220-8dab-09d8df21b393")
 	)
 	(hierarchical_label "VLOAD"
 		(shape input)
@@ -3920,17 +3940,6 @@
 			(justify right)
 		)
 		(uuid "010fc5aa-b665-421d-b1a6-1151dda575ee")
-	)
-	(hierarchical_label "VLOAD"
-		(shape input)
-		(at 26.67 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d526ceb-4a25-4007-aea9-915070f78fb0")
 	)
 	(symbol
 		(lib_id "power:GND")
