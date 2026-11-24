@@ -1379,7 +1379,7 @@
 		)
 		(uuid "74b2ab8e-845e-46c4-90ed-9fb9bbbb56ac")
 	)
-	(text "0.042mOhm Rds ON\n/2 = 0.021 @30A = 19W\n/3 = 0.014 @30A = 13W\n\n"
+	(text "4.2mOhm Rds ON\n/2 = 0.0021 @30A = 1.9W\n/3 = 0.0014 @30A = 1.3W\n\n"
 		(exclude_from_sim no)
 		(at 16.002 22.098 0)
 		(effects

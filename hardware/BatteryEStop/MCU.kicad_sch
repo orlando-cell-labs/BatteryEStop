@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "b7133e8e-2113-412e-a52b-08a7dd7fc236")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1380,7 +1380,7 @@
 	)
 	(rectangle
 		(start 205.994 19.558)
-		(end 241.3 30.48)
+		(end 252.73 39.37)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1653,16 +1653,6 @@
 	)
 	(wire
 		(pts
-			(xy 392.43 147.32) (xy 378.46 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c19cbda-df99-4880-bf38-f110e2d771d4")
-	)
-	(wire
-		(pts
 			(xy 123.19 29.21) (xy 123.19 33.02)
 		)
 		(stroke
@@ -1690,6 +1680,16 @@
 			(type default)
 		)
 		(uuid "2916a97e-3b79-4432-850b-371189c70077")
+	)
+	(wire
+		(pts
+			(xy 179.07 33.02) (xy 195.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af03ad3-7926-4c2d-b32c-be964f9d359b")
 	)
 	(wire
 		(pts
@@ -1823,6 +1823,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 34.29) (xy 213.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74507c2e-39d5-4aae-add0-b96c911c1c55")
+	)
+	(wire
+		(pts
 			(xy 114.3 96.52) (xy 114.3 100.33)
 		)
 		(stroke
@@ -1830,6 +1840,16 @@
 			(type default)
 		)
 		(uuid "82d43016-b0f6-45cb-a59b-23d4dbcff09e")
+	)
+	(wire
+		(pts
+			(xy 232.41 148.59) (xy 215.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a6a125-d213-4f9e-9f59-e36c442a35b0")
 	)
 	(wire
 		(pts
@@ -1863,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 25.4) (xy 223.52 25.4)
+			(xy 212.09 25.4) (xy 229.87 25.4)
 		)
 		(stroke
 			(width 0)
@@ -1910,16 +1930,6 @@
 			(type default)
 		)
 		(uuid "b827c1bc-e44c-488e-97b7-cf612a00ee55")
-	)
-	(wire
-		(pts
-			(xy 198.12 25.4) (xy 184.15 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be5ac9fa-f3dd-48c9-b8b4-3a2ceffc0e2c")
 	)
 	(wire
 		(pts
@@ -1971,8 +1981,8 @@
 		)
 		(uuid "07fc63f0-cf31-4974-904d-e9c2491e5609")
 	)
-	(label "E-STOP_EN"
-		(at 209.55 25.4 0)
+	(label "RADIO_ESTOP_EN"
+		(at 212.09 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1991,15 +2001,15 @@
 		)
 		(uuid "4a54aff9-b523-4ce1-b048-c85cc3a47a08")
 	)
-	(label "E-STOP_EN"
-		(at 392.43 147.32 180)
+	(label "MCU_ESTOP_EN"
+		(at 213.36 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "53d21c28-f8be-4d59-b1db-78faaaf3d3ec")
+		(uuid "559a8ba7-1236-4501-8529-08e44296b7ad")
 	)
 	(label "XbeeUart.Rx"
 		(at 86.36 67.31 180)
@@ -2021,8 +2031,18 @@
 		)
 		(uuid "8e468cba-f4e4-4989-8678-9ad3c0918431")
 	)
-	(label "E-STOP_EN"
-		(at 198.12 25.4 180)
+	(label "MCU_ESTOP_EN"
+		(at 215.9 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2a5c538-d229-44a7-82b0-aa98c1f6e955")
+	)
+	(label "RADIO_ESTOP_EN"
+		(at 195.58 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2073,9 +2093,9 @@
 		)
 		(uuid "33d72bb2-2746-42e4-8548-4f77bb7bd4be")
 	)
-	(hierarchical_label "E-STOP_EN"
+	(hierarchical_label "RADIO_ESTOP_EN"
 		(shape input)
-		(at 223.52 25.4 0)
+		(at 229.87 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2105,6 +2125,17 @@
 			(justify left)
 		)
 		(uuid "ab040730-c951-4c1a-b6f1-12dfb27aae74")
+	)
+	(hierarchical_label "MCU_ESTOP_EN"
+		(shape input)
+		(at 229.87 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb7b8888-8d68-4a3a-a287-9b996cd02f30")
 	)
 	(symbol
 		(lib_id "nrobotics:XB-8XR-DMUM-101")
