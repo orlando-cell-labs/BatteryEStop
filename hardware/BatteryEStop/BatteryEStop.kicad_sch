@@ -978,7 +978,7 @@
 		(uuid "784c0b34-5ec9-4c63-ad13-67b58bb00363")
 	)
 	(circle
-		(center 146.05 95.25)
+		(center 125.73 92.71)
 		(radius 2.2895)
 		(stroke
 			(width -0.0001)
@@ -1016,6 +1016,18 @@
 		)
 		(uuid "ee04a518-575c-459f-8143-9d19da7efb3e")
 	)
+	(text "CANBUS"
+		(exclude_from_sim no)
+		(at 224.536 73.66 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.2381)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "27d6164c-a80a-4a7c-b70a-f449c35dba95")
+	)
 	(text "git add . ':!hardware/lib/kicad-lib'"
 		(exclude_from_sim no)
 		(at 195.58 179.07 0)
@@ -1037,18 +1049,6 @@
 		)
 		(uuid "68039a12-4fdf-4bd2-8e90-f9fcda139abf")
 	)
-	(text "separate +16V rail"
-		(exclude_from_sim no)
-		(at 150.114 126.746 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "7c97c7aa-7f2f-4d8a-ac52-0d904fefdf82")
-	)
 	(text "STATUS"
 		(exclude_from_sim no)
 		(at 237.49 118.11 0)
@@ -1061,13 +1061,13 @@
 		(uuid "9cec40e9-f299-46f6-8dcf-abc4ce762f89")
 	)
 	(junction
-		(at 158.75 100.33)
+		(at 158.75 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4135cc3d-6b1e-48c4-9748-0d1d9d660423")
 	)
 	(junction
-		(at 67.31 82.55)
+		(at 67.31 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57e6a4d4-4860-4349-89df-757c92d71346")
@@ -1116,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 123.19 100.33)
+			(xy 67.31 101.6) (xy 123.19 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1176,6 +1176,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 101.6) (xy 67.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae1bb42-c9a6-4fee-ad6c-0cbe75f15a52")
+	)
+	(wire
+		(pts
 			(xy 247.65 128.27) (xy 247.65 132.08)
 		)
 		(stroke
@@ -1186,7 +1196,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 67.31 82.55)
+			(xy 67.31 60.96) (xy 67.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1196,7 +1206,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 158.75 100.33)
+			(xy 146.05 101.6) (xy 158.75 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1226,6 +1236,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec19321-8059-4847-812b-a59fa51efdbd")
+	)
+	(wire
+		(pts
+			(xy 154.94 97.79) (xy 154.94 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8182e22e-f5bc-4037-b871-44b99e17d83e")
+	)
+	(wire
+		(pts
 			(xy 110.49 133.35) (xy 110.49 105.41)
 		)
 		(stroke
@@ -1243,16 +1273,6 @@
 			(type default)
 		)
 		(uuid "8a88a180-1de7-4945-9d7a-3a5c3da7f44a")
-	)
-	(wire
-		(pts
-			(xy 67.31 82.55) (xy 67.31 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9502de25-6bb7-4c73-a56c-baf3882d4dea")
 	)
 	(wire
 		(pts
@@ -1304,19 +1324,19 @@
 		)
 		(uuid "b88cf636-eeea-48e4-be00-51ea7ab19f43")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 158.75 90.17) (xy 158.75 118.11)
+			(xy 134.62 119.38) (xy 134.62 196.85)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "b8ffd046-0548-4872-906a-98940a759526")
+		(uuid "d024afba-516e-46f3-8ec0-d54239bf4c20")
 	)
 	(wire
 		(pts
-			(xy 158.75 90.17) (xy 168.91 90.17)
+			(xy 158.75 91.44) (xy 168.91 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1366,6 +1386,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 86.36) (xy 168.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae225ef-e333-4b2f-aecb-9e01d59b101a")
+	)
+	(wire
+		(pts
 			(xy 247.65 149.86) (xy 251.46 149.86)
 		)
 		(stroke
@@ -1376,7 +1406,7 @@
 	)
 	(polyline
 		(pts
-			(xy 134.62 38.1) (xy 134.62 163.83)
+			(xy 134.62 12.7) (xy 134.62 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1386,13 +1416,23 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 82.55) (xy 168.91 82.55)
+			(xy 67.31 81.28) (xy 168.91 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0dacac6-6ee1-4582-8a4d-df11122e1487")
+	)
+	(wire
+		(pts
+			(xy 158.75 91.44) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74785ec-0e6a-4ace-b44d-2306221c7748")
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
@@ -1481,6 +1521,83 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e3ce7de-0cc5-4f1e-b5fe-7f04f1a4f5d7")
+		(property "Reference" "#PWR078"
+			(at 218.44 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41b590fa-8241-4d74-9f29-bc3885b1ae70")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -1898,83 +2015,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "97d3947a-85b9-410d-82df-37284590cee4")
-		(property "Reference" "#PWR04"
-			(at 218.44 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDLOAD"
-			(at 218.44 96.774 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "57dfbef7-939a-4716-90d7-c9ab0409999a")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 269.24 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -2304,7 +2344,7 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 123.19 100.33 180)
+			(at 123.19 101.6 180)
 			(uuid "7c379cb4-40a0-42cb-a765-9a494dcc2736")
 			(effects
 				(font
@@ -2314,7 +2354,7 @@
 			)
 		)
 		(pin "VLOAD" input
-			(at 146.05 100.33 0)
+			(at 146.05 101.6 0)
 			(uuid "38964843-4719-432b-83ae-dbc3a3483916")
 			(effects
 				(font
@@ -2341,6 +2381,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "ESTOP_STATE" input
+			(at 146.05 97.79 0)
+			(uuid "678c98e0-7bdb-445c-8167-b67918176f99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2624,7 +2674,7 @@
 			)
 		)
 		(pin "VLOAD" input
-			(at 168.91 90.17 180)
+			(at 168.91 91.44 180)
 			(uuid "69f7bc86-f484-487c-9e1a-13e71295c6f6")
 			(effects
 				(font
@@ -2644,8 +2694,18 @@
 			)
 		)
 		(pin "VBAT" input
-			(at 168.91 82.55 180)
+			(at 168.91 81.28 180)
 			(uuid "fecb294b-49b7-4140-9a5f-ee1d9103260d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESTOP_STATE" input
+			(at 168.91 86.36 180)
+			(uuid "f014afc9-0d10-4cdc-8af9-90ef26ec0c73")
 			(effects
 				(font
 					(size 1.27 1.27)

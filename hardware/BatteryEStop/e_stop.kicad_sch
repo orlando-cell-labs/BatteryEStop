@@ -302,603 +302,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Power_Management:LM5069MM-1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LM5069MM-1"
-				(at 1.27 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
-				(at 1.27 -21.844 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5069.pdf"
-				(at -0.508 -25.146 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Hot swap & Inrush current controller with power limiting, latch off on fault, 9V to 80Vin, UVLO & OVLO, VSSOP-10"
-				(at 0.762 -23.368 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "high-voltage mosfet-driver efuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM5069MM-1_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "LM5069MM-1_1_0"
-				(pin input line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "TIMER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM5069MM-1_1_1"
-				(pin input line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "SENSE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 10.16 270)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "OVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "PWR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "PGD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "GATE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:AO3400A"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AO3400A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3400A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "nrobotics:CRSS042N10N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1170,160 +573,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "nrobotics:CSS2H-3920R-1L00F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CSS2H-3920R-1L00F"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "nRobotics:RES-SMD_L10.0-W5.2"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C4087295.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "BOURNS"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CSS2H-3920R-1L00F"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C4087295"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CSS2H-3920R-1L00F_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2760,16 +2009,6 @@
 		)
 		(uuid "120f77ab-ad7a-4294-95ce-5e401b5165e9")
 	)
-	(text "Disconnect"
-		(exclude_from_sim no)
-		(at 433.832 19.304 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "28da454a-fe45-4a66-82a5-ec9105490570")
-	)
 	(text "Radio"
 		(exclude_from_sim no)
 		(at 17.78 19.05 0)
@@ -2827,6 +2066,30 @@
 			)
 		)
 		(uuid "60592141-0cfc-4e93-95aa-947038332641")
+	)
+	(text "FLT_GD to crowbar"
+		(exclude_from_sim no)
+		(at 245.618 121.92 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "6e3b739e-57f3-4255-bc7d-ccd1886ee1ea")
+	)
+	(text "reverse EN / INP?"
+		(exclude_from_sim no)
+		(at 174.498 129.794 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "722bbea3-931b-430c-aa21-24684765c955")
 	)
 	(text "Physical Switch"
 		(exclude_from_sim no)
@@ -2910,12 +2173,6 @@
 		(uuid "4a7d2337-cce5-4e9d-b1b7-ccf1554b59a0")
 	)
 	(junction
-		(at -74.93 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6113c47e-8cb3-4ccf-b0cd-ad566f955bc0")
-	)
-	(junction
 		(at 204.47 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2970,12 +2227,6 @@
 		(uuid "9139b09a-e89f-463c-809b-17eaeaaa07ff")
 	)
 	(junction
-		(at -74.93 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bddf93a-9b98-4541-835c-84f7e29109e6")
-	)
-	(junction
 		(at 194.31 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2986,12 +2237,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b21d6a25-4fef-40d0-8f05-0cfdf9cfebdf")
-	)
-	(junction
-		(at -74.93 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b892c658-8c69-47f8-98b8-1d5867838a8d")
 	)
 	(junction
 		(at 524.51 67.31)
@@ -3223,16 +2468,6 @@
 	)
 	(wire
 		(pts
-			(xy -74.93 160.02) (xy -74.93 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a2f115-33f7-4188-b8be-81282ed5a3a3")
-	)
-	(wire
-		(pts
 			(xy 511.81 81.28) (xy 515.62 81.28)
 		)
 		(stroke
@@ -3410,16 +2645,6 @@
 			(type default)
 		)
 		(uuid "536e719c-cba4-42ee-a45c-c75b71bce97b")
-	)
-	(wire
-		(pts
-			(xy -74.93 160.02) (xy -67.31 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "554faf70-32ca-4a11-b690-24d1fe6354b5")
 	)
 	(wire
 		(pts
@@ -3683,16 +2908,6 @@
 	)
 	(wire
 		(pts
-			(xy -74.93 151.13) (xy -74.93 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "817dbb07-6df1-4789-928a-b0c65ea65544")
-	)
-	(wire
-		(pts
 			(xy 212.09 68.58) (xy 222.25 68.58)
 		)
 		(stroke
@@ -3793,16 +3008,6 @@
 	)
 	(wire
 		(pts
-			(xy -105.41 134.62) (xy -74.93 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915e877e-db09-43b4-81f6-05604d68dd18")
-	)
-	(wire
-		(pts
 			(xy 466.09 69.85) (xy 466.09 81.28)
 		)
 		(stroke
@@ -3820,16 +3025,6 @@
 			(type default)
 		)
 		(uuid "92b3b5fa-840a-44d1-b36f-5c110838ecc5")
-	)
-	(wire
-		(pts
-			(xy -62.23 134.62) (xy -62.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f4fe9a-6827-4b4e-8619-db71e61809ea")
 	)
 	(wire
 		(pts
@@ -3910,16 +3105,6 @@
 			(type default)
 		)
 		(uuid "a394525c-da69-460e-80a5-3202578cd828")
-	)
-	(wire
-		(pts
-			(xy -74.93 134.62) (xy -74.93 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5524e21-cab6-44f4-8d9f-de2fce13f64b")
 	)
 	(wire
 		(pts
@@ -4030,16 +3215,6 @@
 			(type default)
 		)
 		(uuid "cbb33986-1e99-4c1d-bdb6-1293434c08e3")
-	)
-	(wire
-		(pts
-			(xy -67.31 154.94) (xy -74.93 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc0009ca-2133-4809-b03c-235f0fb2c0cd")
 	)
 	(wire
 		(pts
@@ -4211,26 +3386,6 @@
 		)
 		(uuid "fb3a18e1-40be-430a-812c-7c08876c41b9")
 	)
-	(wire
-		(pts
-			(xy -54.61 165.1) (xy -54.61 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe772554-4eae-4961-9ef4-12f49384a3cb")
-	)
-	(wire
-		(pts
-			(xy -74.93 134.62) (xy -62.23 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffc0dbfd-ea6c-41bb-aea0-707c9f929067")
-	)
 	(label "E-STOP_EN+"
 		(at 60.96 35.56 180)
 		(effects
@@ -4392,6 +3547,17 @@
 		)
 		(uuid "0560d79b-7e21-4f05-b472-3cc1e585f2c0")
 	)
+	(hierarchical_label "ESTOP_STATE"
+		(shape input)
+		(at 241.3 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc39498-7fda-4f63-866b-3b7836632c7b")
+	)
 	(hierarchical_label "VBAT"
 		(shape input)
 		(at 146.05 68.58 180)
@@ -4413,17 +3579,6 @@
 			(justify left)
 		)
 		(uuid "857bc458-7db0-40e0-81c7-e71c5402060e")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at -105.41 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93c162af-700e-4784-ab0d-b8a1767e5020")
 	)
 	(hierarchical_label "RADIO_ESTOP_EN"
 		(shape input)
@@ -5958,218 +5113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "nrobotics:CSS2H-3920R-1L00F")
-		(at -46.99 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a9e681-1f27-4a7f-b439-c01f4b608766")
-		(property "Reference" "U10"
-			(at -46.99 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CSS2H-3920R-L500F"
-			(at -46.99 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nrobotics:RES-SMD_L10.0-W5.2"
-			(at -46.99 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -46.99 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at -46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "Bourns CSS2H-3920R-L500F "
-			(at -46.99 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "652-CSS2H3920RL500F "
-			(at -46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at -46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at -46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at -46.99 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8031f7fb-79c8-4e80-b026-89940af2ae14")
-		)
-		(pin "1"
-			(uuid "cc6a87f0-d7ac-420f-a804-8fbde0f351bc")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at -74.93 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "61e5a92a-7b18-4449-962d-c6c0146b6162")
-		(property "Reference" "#PWR029"
-			(at -74.93 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at -74.93 167.894 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -74.93 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -74.93 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -74.93 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f1e3034-1fae-423a-8a21-430867f20996")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "nrobotics:TPS4800-Q1")
 		(at 209.55 110.49 0)
 		(unit 1)
@@ -7649,83 +6592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at -54.61 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a020cf08-72c8-4f13-83cd-afe0adf1d61f")
-		(property "Reference" "#PWR026"
-			(at -54.61 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at -54.61 172.974 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -54.61 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -54.61 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -54.61 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d77ded9e-4384-4321-96f9-3caae75c75ee")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 76.2 86.36 0)
 		(unit 1)
@@ -7798,88 +6664,6 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at -74.93 148.59 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5e9e714-ef01-4746-9fc4-f966ec06768b")
-		(property "Reference" "R40"
-			(at -76.2 147.574 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at -76.454 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at -74.93 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -74.93 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at -74.93 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f9e657e-8e5c-4b9f-9d3c-62466ce1af9b")
-		)
-		(pin "2"
-			(uuid "2f78415e-4d22-4fd6-9699-450e1e4b8f5b")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -8018,111 +6802,6 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
 					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Management:LM5069MM-1")
-		(at -54.61 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bdd79c1e-d936-434a-b347-23d8dfaa2005")
-		(property "Reference" "U9"
-			(at -46.99 164.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM5069MM-1"
-			(at -46.99 167.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
-			(at -53.34 174.244 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm5069.pdf"
-			(at -55.118 177.546 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Hot swap & Inrush current controller with power limiting, latch off on fault, 9V to 80Vin, UVLO & OVLO, VSSOP-10"
-			(at -53.848 175.768 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "ecb5582b-e14f-4004-a829-fa0214b9be80")
-		)
-		(pin "5"
-			(uuid "af1eaccc-8744-477a-a3dd-8d773f647ec5")
-		)
-		(pin "7"
-			(uuid "487389eb-564a-49f1-aa9c-de6a4decc336")
-		)
-		(pin "9"
-			(uuid "61e2878a-6cd4-4917-ad9b-fc09d0cd88ee")
-		)
-		(pin "10"
-			(uuid "9c468352-a76f-4481-9d45-7405a659fd3b")
-		)
-		(pin "8"
-			(uuid "96696da2-2475-4f73-a5ba-7cc2ad379a2d")
-		)
-		(pin "1"
-			(uuid "3714b796-d221-4986-9548-ae0f6f549fee")
-		)
-		(pin "3"
-			(uuid "a5f926c8-594f-4369-96e4-858c1dd6a957")
-		)
-		(pin "2"
-			(uuid "dc678385-3620-46a5-b925-6c633fc10bf6")
-		)
-		(pin "6"
-			(uuid "aa5a09e9-b057-47fe-8a99-89b0cf6159c8")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8909,219 +7588,6 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at -15.24 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec7870fc-6ddc-40d4-acbf-857c45cc7c18")
-		(property "Reference" "Q13"
-			(at -9.906 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123"
-			(at -9.906 144.526 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at -10.16 145.415 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at -10.16 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at -15.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "512-BSS123"
-			(at -15.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at -15.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at -15.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at -15.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "363dfefb-5e12-4847-946f-a092fbff28d6")
-		)
-		(pin "2"
-			(uuid "f57a9d57-c8d9-4e94-838e-47cac5640f73")
-		)
-		(pin "3"
-			(uuid "da09cd89-f58d-496b-bab1-55219f424b54")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at -74.93 157.48 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa2da99a-d255-4308-9983-a16f8e739b32")
-		(property "Reference" "R41"
-			(at -76.2 156.464 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at -76.454 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at -74.93 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -74.93 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at -74.93 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d328d1b-f082-45cc-b306-52c3b322d54a")
-		)
-		(pin "2"
-			(uuid "28ec18f2-9d20-47a7-88d8-31c7ded8f41f")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R41")
 					(unit 1)
 				)
 			)
