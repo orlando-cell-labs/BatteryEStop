@@ -668,7 +668,7 @@
         "uuid": "56bb87b1-d063-468b-8e41-f1e1b1faddd7"
       }
     ],
-    "used_designators": "#FLG1-8,#PWR1-97,C1-30,C45,C62,D1-6,F1,FB1,J1-5,JP1,L1,Q1-15,R1-60,R65,R75-77,R118,TP1-4,U1-13,Y1",
+    "used_designators": "#FLG1-8,#PWR1-103,C1-30,C45,C62,D1-8,D59-62,F1,FB1,J1-5,J16-19,JP1,L1,LED1,Q1-15,R1-62,R65,R75-77,R118,TP1-5,U1-13,Y1",
     "variants": []
   },
   "sheets": [
@@ -707,6 +707,10 @@
     [
       "c90f405b-0efd-467e-96a6-2fae7e048624",
       "can"
+    ],
+    [
+      "2e046082-59a1-4a41-97d6-7627e4f322ba",
+      "pwr_out"
     ]
   ],
   "text_variables": {},
