@@ -5065,7 +5065,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 140.716 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)

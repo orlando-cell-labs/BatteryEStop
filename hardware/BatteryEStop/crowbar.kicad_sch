@@ -997,6 +997,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "nrobotics:FDC3612"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FDC3612"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P275X110-6N"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDC3612-D.PDF"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "N-Channel 100 V 2.6A (Ta) 1.6W (Ta) Surface Mount SuperSOT-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "512-FDC3612"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDC3612?qs=O7upWGTj0%2FMmqkXIHpZEPQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FDC3612"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "FDC3612_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "D_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "D_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "D_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "D_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "nrobotics:SCF9550-45-14"
 			(pin_names
 				(offset 1.016)
@@ -1854,8 +2100,8 @@
 		)
 	)
 	(rectangle
-		(start 222.504 22.606)
-		(end 274.32 91.44)
+		(start 219.71 22.606)
+		(end 269.24 83.82)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1886,21 +2132,9 @@
 		)
 		(uuid "11c95529-b483-4871-b458-46b1fc699003")
 	)
-	(text "handle >2A"
-		(exclude_from_sim no)
-		(at 263.906 72.898 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "245a41e9-dc82-4765-8947-9b3680ae1ba5")
-	)
 	(text "care w/ e-stop timings\ncoordinate delay w/ bleed resistor"
 		(exclude_from_sim no)
-		(at 45.72 21.59 0)
+		(at 59.69 21.844 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1954,9 +2188,30 @@
 		)
 		(uuid "67e97008-1ba3-47a1-91b3-600896174b10")
 	)
+	(text "2.6A"
+		(exclude_from_sim no)
+		(at 249.682 77.216 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89a900c6-d56d-49b6-a389-e4a8c88ae689")
+	)
+	(text "TLV1702"
+		(exclude_from_sim no)
+		(at 165.1 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9083d451-52ae-4416-9170-575863a065be")
+	)
 	(text "Heater DCR\n38-75Ohm\n~1.5A @VBAT"
 		(exclude_from_sim no)
-		(at 237.744 54.864 0)
+		(at 238.76 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2001,10 +2256,10 @@
 		(uuid "daf11f10-dec1-4ad2-abd0-bead596e0d33")
 	)
 	(junction
-		(at 212.09 72.39)
+		(at 242.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4fcf6f3d-a406-4e93-b4e7-c0cfd1fcde34")
+		(uuid "5343e4ed-6585-481f-a179-bd69fcac04cd")
 	)
 	(junction
 		(at 97.79 41.91)
@@ -2013,10 +2268,22 @@
 		(uuid "59548f0f-aec1-4ab7-acaa-bb4dc3f849a4")
 	)
 	(junction
+		(at 259.08 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc1593d-daed-414f-85fb-3d8249e61176")
+	)
+	(junction
 		(at 90.17 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a14dec-24f7-40c0-af6f-5f827ce94fa2")
+	)
+	(junction
+		(at 226.06 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "855c4845-1733-4034-98a5-bf7465195402")
 	)
 	(junction
 		(at 142.24 57.15)
@@ -2041,6 +2308,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e92fdbab-4cf2-49c8-af71-ac2adf57306a")
+	)
+	(junction
+		(at 212.09 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0482a94-905e-4a95-93d7-c23c545b546d")
 	)
 	(junction
 		(at 142.24 69.85)
@@ -2086,16 +2359,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 63.5) (xy 242.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8f47f9-198b-4564-b438-2ae5edff187a")
-	)
-	(wire
-		(pts
 			(xy 152.4 69.85) (xy 161.29 69.85)
 		)
 		(stroke
@@ -2103,6 +2366,16 @@
 			(type default)
 		)
 		(uuid "2085aa2b-d418-49b4-a222-656813faf1e6")
+	)
+	(wire
+		(pts
+			(xy 226.06 67.31) (xy 229.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "290bf7d2-f09b-4aaa-88fe-c1d6e5e549e0")
 	)
 	(wire
 		(pts
@@ -2163,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "3f151211-01ed-46da-bb1a-95ecdc76bf41")
+	)
+	(wire
+		(pts
+			(xy 259.08 58.42) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4360baee-a4d9-429f-9732-f915c3b71bff")
 	)
 	(wire
 		(pts
@@ -2236,6 +2519,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 69.85) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b14b7d6-d091-459f-822d-e0f31e1a2005")
+	)
+	(wire
+		(pts
 			(xy 97.79 53.34) (xy 97.79 50.8)
 		)
 		(stroke
@@ -2276,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 67.31) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d0bce7-ee54-4ffc-9068-e6261346a167")
+	)
+	(wire
+		(pts
 			(xy 142.24 69.85) (xy 142.24 73.66)
 		)
 		(stroke
@@ -2303,6 +2606,26 @@
 			(type default)
 		)
 		(uuid "8b4a7806-36c0-456a-8002-9c64ea5a6b1f")
+	)
+	(wire
+		(pts
+			(xy 226.06 58.42) (xy 226.06 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e940f8-208e-4d12-b493-f4acd94145c3")
+	)
+	(wire
+		(pts
+			(xy 242.57 54.61) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a48daf6-1ad7-49cc-8863-1febe4e15ced")
 	)
 	(wire
 		(pts
@@ -2336,6 +2659,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 58.42) (xy 259.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7592263-e913-4555-97f1-0376a4f52985")
+	)
+	(wire
+		(pts
 			(xy 260.35 29.21) (xy 255.27 29.21)
 		)
 		(stroke
@@ -2366,7 +2699,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 29.21) (xy 255.27 40.64)
+			(xy 255.27 29.21) (xy 255.27 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2403,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "af6142bc-bb9f-4c2f-a154-4cba7f3b7c51")
+	)
+	(wire
+		(pts
+			(xy 226.06 67.31) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7482c85-14c3-4ad3-bf8c-986dd9dc02c5")
 	)
 	(wire
 		(pts
@@ -2446,6 +2789,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 69.85) (xy 229.87 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59ddb31-0b3c-47fb-be64-cf99f9293f90")
+	)
+	(wire
+		(pts
 			(xy 44.45 46.99) (xy 52.07 46.99)
 		)
 		(stroke
@@ -2453,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "cb153441-628d-463d-a7d3-36e9fffbf96b")
+	)
+	(wire
+		(pts
+			(xy 242.57 58.42) (xy 226.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3930b2-7abc-4075-bd85-c5c72b9b66b8")
 	)
 	(wire
 		(pts
@@ -2476,7 +2839,17 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 77.47) (xy 242.57 81.28)
+			(xy 212.09 72.39) (xy 229.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d587266d-adf2-4f5f-8a35-837918001f44")
+	)
+	(wire
+		(pts
+			(xy 255.27 72.39) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2486,13 +2859,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 72.39) (xy 234.95 72.39)
+			(xy 259.08 67.31) (xy 259.08 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "daeaf09f-b11b-4725-b8b3-71410028b158")
+		(uuid "d76553b8-f61a-4076-9e1a-7e6903a9c229")
 	)
 	(wire
 		(pts
@@ -2526,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 29.21) (xy 229.87 40.64)
+			(xy 229.87 29.21) (xy 229.87 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2916,6 +3289,159 @@
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/d6ab6ba1-a6e1-4fe2-89b0-29652032eb3e"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrobotics:FDC3612")
+		(at 229.87 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29142e62-8ab6-40a9-ba12-1ec546925187")
+		(property "Reference" "Q10"
+			(at 236.728 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FDC3612"
+			(at 239.014 63.246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P275X110-6N"
+			(at 251.46 162.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDC3612-D.PDF"
+			(at 251.46 262.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "N-Channel 100 V 2.6A (Ta) 1.6W (Ta) Surface Mount SuperSOT-6"
+			(at 229.87 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.1"
+			(at 251.46 462.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "512-FDC3612"
+			(at 251.46 562.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDC3612?qs=O7upWGTj0%2FMmqkXIHpZEPQ%3D%3D"
+			(at 251.46 662.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 251.46 762.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FDC3612"
+			(at 251.46 862.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "03c6320d-1c04-48ae-a883-b6de91b54667")
+		)
+		(pin "5"
+			(uuid "85347ea2-9bae-428f-8316-a1175e9cbfe0")
+		)
+		(pin "1"
+			(uuid "2957e45e-a393-40be-a05a-78491fd93e5f")
+		)
+		(pin "4"
+			(uuid "d6a0fe48-6f9f-4a48-ac0e-e09bc773ad75")
+		)
+		(pin "3"
+			(uuid "cd262239-c9b6-4c9f-867d-c07d0b98109a")
+		)
+		(pin "2"
+			(uuid "580b8486-c9f2-4864-a816-c6192a7209e5")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/d6ab6ba1-a6e1-4fe2-89b0-29652032eb3e"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -3775,137 +4301,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 240.03 72.39 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7d70ae7d-b098-4d5e-be8b-97df245f26b8")
-		(property "Reference" "Q15"
-			(at 245.364 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123"
-			(at 245.364 73.152 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 245.11 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 240.03 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "512-BSS123"
-			(at 240.03 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 240.03 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 240.03 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 240.03 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55ec6936-45f4-4040-bd80-3d516a3e396f")
-		)
-		(pin "2"
-			(uuid "645763b7-e797-423a-a600-377c3355b6a2")
-		)
-		(pin "3"
-			(uuid "6e6862c4-6975-4a9e-b16f-6ffb1634e529")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/d6ab6ba1-a6e1-4fe2-89b0-29652032eb3e"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 59.69 55.88 0)
 		(unit 1)
@@ -3984,7 +4379,7 @@
 	)
 	(symbol
 		(lib_id "nrobotics:SCF9550-45-14")
-		(at 242.57 66.04 90)
+		(at 242.57 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3994,7 +4389,7 @@
 		(dnp no)
 		(uuid "8444ce11-5d11-42a1-a7e0-8171b6ec6fae")
 		(property "Reference" "F1"
-			(at 242.062 40.64 90)
+			(at 242.062 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4004,7 +4399,7 @@
 			)
 		)
 		(property "Value" "SCF9550-45-14"
-			(at 242.062 43.18 90)
+			(at 242.062 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4014,7 +4409,7 @@
 			)
 		)
 		(property "Footprint" "Eaton-SCF9550-0-0-*"
-			(at 222.25 66.04 0)
+			(at 222.25 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4026,7 +4421,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-scf9550-self-control-fuse-data-sheet-elx1135-en.pdf"
-			(at 219.71 66.04 0)
+			(at 219.71 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +4433,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 66.04 0)
+			(at 242.57 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4049,7 +4444,7 @@
 			)
 		)
 		(property "automotive" "No"
-			(at 217.17 66.04 0)
+			(at 217.17 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4061,7 +4456,7 @@
 			)
 		)
 		(property "category" "Fuse"
-			(at 214.63 66.04 0)
+			(at 214.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4073,7 +4468,7 @@
 			)
 		)
 		(property "current rating" "45A"
-			(at 212.09 66.04 0)
+			(at 212.09 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4085,7 +4480,7 @@
 			)
 		)
 		(property "device class L1" "Circuit Protection"
-			(at 209.55 66.04 0)
+			(at 209.55 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4097,7 +4492,7 @@
 			)
 		)
 		(property "device class L2" "PTC Resettable Fuses"
-			(at 207.01 66.04 0)
+			(at 207.01 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4504,7 @@
 			)
 		)
 		(property "device class L3" "unset"
-			(at 204.47 66.04 0)
+			(at 204.47 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,7 +4516,7 @@
 			)
 		)
 		(property "digikey description" "FUSE TRIGGERABLE 45A 80V 13-14 C"
-			(at 201.93 66.04 0)
+			(at 201.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4528,7 @@
 			)
 		)
 		(property "digikey part number" "283-SCF9550-45-14CT-ND"
-			(at 199.39 66.04 0)
+			(at 199.39 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4145,7 +4540,7 @@
 			)
 		)
 		(property "height" "2.3mm"
-			(at 196.85 66.04 0)
+			(at 196.85 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4552,7 @@
 			)
 		)
 		(property "lead free" "Yes"
-			(at 194.31 66.04 0)
+			(at 194.31 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4169,7 +4564,7 @@
 			)
 		)
 		(property "library id" "e802a82c6fd8b099"
-			(at 191.77 66.04 0)
+			(at 191.77 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4576,7 @@
 			)
 		)
 		(property "manufacturer" "Eaton"
-			(at 189.23 66.04 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4588,7 @@
 			)
 		)
 		(property "mouser part number" "504-SCF9550-45-14"
-			(at 186.69 66.04 0)
+			(at 186.69 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4600,7 @@
 			)
 		)
 		(property "package" "SMT_FUSE_9MM5_5MM0"
-			(at 184.15 66.04 0)
+			(at 184.15 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4217,7 +4612,7 @@
 			)
 		)
 		(property "resistance" "0.7-1.4mΩ"
-			(at 181.61 66.04 0)
+			(at 181.61 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4229,7 +4624,7 @@
 			)
 		)
 		(property "rohs" "Yes"
-			(at 179.07 66.04 0)
+			(at 179.07 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +4636,7 @@
 			)
 		)
 		(property "temperature range high" "+60°C"
-			(at 176.53 66.04 0)
+			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4253,7 +4648,7 @@
 			)
 		)
 		(property "temperature range low" "-20°C"
-			(at 173.99 66.04 0)
+			(at 173.99 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,7 +4660,7 @@
 			)
 		)
 		(property "voltage rating" "80V"
-			(at 171.45 66.04 0)
+			(at 171.45 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +5533,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 81.28 0)
+		(at 255.27 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5148,7 +5543,7 @@
 		(dnp no)
 		(uuid "ce309b4a-a9b2-404e-bfc5-6b18cff7d3c6")
 		(property "Reference" "#PWR085"
-			(at 242.57 87.63 0)
+			(at 255.27 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 85.344 0)
+			(at 255.27 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5169,7 +5564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 81.28 0)
+			(at 255.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5180,7 +5575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 81.28 0)
+			(at 255.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5191,7 +5586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 81.28 0)
+			(at 255.27 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
