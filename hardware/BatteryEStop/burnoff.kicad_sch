@@ -1459,19 +1459,19 @@
 		)
 		(uuid "0706f603-2e09-4405-8fba-60e05c317137")
 	)
-	(text "https://www.falstad.com/s.py?s=NsSclk"
+	(text "https://www.falstad.com/s.py?s=XNvVmI"
 		(exclude_from_sim no)
-		(at 81.534 94.488 0)
+		(at 71.882 24.384 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "1cbbdc3b-e2ef-4316-8a57-e0182418a211")
+		(uuid "55c68e1f-39e0-42fd-9c26-4adaece35e43")
 	)
 	(text "4W x 10 = 3.3ohm 40W (from BMS, untested)"
 		(exclude_from_sim no)
-		(at 237.49 39.37 0)
+		(at 237.236 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
