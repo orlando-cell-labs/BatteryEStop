@@ -2545,6 +2545,17 @@
 				)
 			)
 		)
+		(property "MPN" "LM5050MK-2/NOPB"
+			(at 134.62 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a3319e68-65b0-43a1-be85-2ab9289e2466")
 		)
@@ -2853,7 +2864,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "IPT015N10N5ATMA1"
+		(property "MPN" "IPT015N10N5ATMA1"
 			(at 113.03 831.75 0)
 			(hide yes)
 			(show_name no)
@@ -3730,7 +3741,7 @@
 				)
 			)
 		)
-		(property "Mouser" "603-RT1206BRD0747RL "
+		(property "Mouser" "603-RC1206FR-1347RL"
 			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3775,6 +3786,17 @@
 			)
 		)
 		(property "Attributes" ""
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206FR-1347RL"
 			(at 134.62 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3976,6 +3998,17 @@
 			)
 		)
 		(property "Attributes" ""
+			(at 109.22 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMCJ60A"
 			(at 109.22 72.39 90)
 			(hide yes)
 			(show_name no)
