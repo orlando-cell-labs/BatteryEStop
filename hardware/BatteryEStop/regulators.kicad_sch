@@ -3225,6 +3225,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 68.58 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c7a12086-db99-4e67-b0b5-db473138e2e9")
 		)
@@ -3340,6 +3351,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 125.73 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 125.73 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3636,6 +3658,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 157.48 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26b6f568-0469-4d46-9943-3050d5e2d06f")
 		)
@@ -3761,6 +3794,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 78.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3982,6 +4026,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 86.36 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbe894e2-057e-4c0e-98a1-27e8b1c69de7")
 		)
@@ -4096,6 +4151,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 107.95 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 107.95 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4395,6 +4461,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 111.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "80870563-f798-4fa2-ad8e-4b841eb30801")
 		)
@@ -4518,6 +4595,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 185.42 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 185.42 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -4740,6 +4828,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 86.36 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "21e6de18-fd5b-4ac4-98e3-f53b38a810e0")
 		)
@@ -4854,6 +4953,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 121.92 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 121.92 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5065,6 +5175,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 177.8 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56c99b4f-d8dc-4637-8bec-228e9ad0a6a1")
 		)
@@ -5201,6 +5322,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 95.25 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5523,6 +5655,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88c27265-07e0-444a-81ed-aadbaeaecb29")
 		)
@@ -5669,6 +5812,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 215.9 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dd2f6a0a-80d0-4cb0-aa4f-0878af509025")
 		)
@@ -5791,6 +5945,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 134.62 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6090,6 +6255,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 93.98 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "275f1469-0cf5-46b4-9698-8b6aad41ac79")
 		)
@@ -6205,6 +6381,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 121.92 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 121.92 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6495,6 +6682,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 196.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2805131-6690-49a3-b764-056fdc41c86a")
 		)
@@ -6609,6 +6807,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 196.85 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 196.85 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6754,6 +6963,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 177.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a91aa518-917d-4e1b-abca-1347257bb25c")
 		)
@@ -6879,6 +7099,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 207.01 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 207.01 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7168,6 +7399,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 170.18 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 170.18 62.23 90)
 			(hide yes)
 			(show_name no)

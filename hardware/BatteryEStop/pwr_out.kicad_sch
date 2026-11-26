@@ -1021,6 +1021,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 135.89 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "37bf222e-297c-4cdb-a0c7-23f89792caf8")
 		)
@@ -1157,6 +1168,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 87.63 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 87.63 59.69 90)
 			(hide yes)
 			(show_name no)

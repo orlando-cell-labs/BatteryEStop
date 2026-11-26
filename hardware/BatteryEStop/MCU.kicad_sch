@@ -7598,6 +7598,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 64.77 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1a86ba5e-9b37-49f5-938c-b8e09fbd6794")
 		)
@@ -7668,6 +7679,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 167.64 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 167.64 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -7833,6 +7855,17 @@
 			)
 		)
 		(property "MPN" "XB-8XR-DMUM-101"
+			(at 95.25 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 95.25 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -8086,6 +8119,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 41.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
+			(at 41.91 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8409,6 +8453,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "216274c0-bbf5-486b-ba46-c473b154fa2c")
 		)
@@ -8625,6 +8680,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 203.2 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "85b9414e-927f-4074-b15a-87d9ea6181d6")
 		)
@@ -8695,6 +8761,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 41.91 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
+			(at 41.91 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,6 +8852,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 120.65 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9253,6 +9341,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 54.61 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "98a552d1-906d-4c64-8a3f-3c8a0320833f")
 		)
@@ -9321,6 +9420,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 104.14 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9523,6 +9633,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 203.2 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 203.2 38.1 90)
 			(hide yes)
 			(show_name no)
@@ -9771,6 +9892,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 132.08 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f6dc458-9835-4f4a-8d18-2f4e8e328ad9")
 		)
@@ -9841,6 +9973,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 133.35 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 133.35 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9997,6 +10140,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 143.51 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10164,6 +10318,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 226.06 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "aa7f4528-f661-4d8c-b101-68efd074cdc3")
 		)
@@ -10241,6 +10406,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 64.77 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10409,6 +10585,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 64.77 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5d33919-af7c-49f3-a878-8808ce9f3065")
 		)
@@ -10534,6 +10721,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 220.98 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 220.98 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10719,6 +10917,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 48.26 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a8a9fd13-a7d5-4b19-b3b3-ea749106efdb")
 		)
@@ -10806,6 +11015,17 @@
 				)
 			)
 		)
+		(property "Attributes" ""
+			(at 59.69 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a81fdab9-4680-4fa3-8d73-c1740123d149")
 		)
@@ -10876,6 +11096,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 233.68 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" ""
 			(at 233.68 82.55 0)
 			(hide yes)
 			(show_name no)
