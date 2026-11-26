@@ -2747,7 +2747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0b349741-6bc7-48c6-aa59-d500a4e8ea2b")
-		(property "Reference" "R59"
+		(property "Reference" "R47"
 			(at 186.69 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2811,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R59")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15703271-8df8-443d-aee5-4326a821e730")
-		(property "Reference" "U15"
+		(property "Reference" "U11"
 			(at 176.784 47.752 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +2956,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "U15")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2973,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16f41feb-d7af-420c-b8f4-5ca8925242db")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR076"
 			(at 81.28 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3033,7 +3033,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR089")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3050,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b2518c8-544c-4cd0-add4-5fef25f2aa3b")
-		(property "Reference" "R62"
+		(property "Reference" "R50"
 			(at 221.234 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3114,7 +3114,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R62")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -3131,7 +3131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d6e870b-097d-4a8d-ab54-4acd24a77d57")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR073"
 			(at 48.26 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3191,7 +3191,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR086")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3208,7 +3208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "377ecafe-7eba-4efb-a072-d091e4880c98")
-		(property "Reference" "R64"
+		(property "Reference" "R52"
 			(at 236.474 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3272,7 +3272,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R64")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -3289,7 +3289,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49812949-94ae-4fbd-9768-ad8504883e1b")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR080"
 			(at 133.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3349,7 +3349,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR093")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3366,7 +3366,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4995eee7-3fd2-4bca-bb01-a0acc34ab916")
-		(property "Reference" "R54"
+		(property "Reference" "R42"
 			(at 62.992 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +3430,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R54")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3447,7 +3447,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "642a0486-1429-4a10-880a-659ccbd71c7e")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR074"
 			(at 64.77 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3507,7 +3507,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR087")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67331c4e-cbaa-43b8-ab1b-a8234afc950d")
-		(property "Reference" "C26"
+		(property "Reference" "C25"
 			(at 45.72 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3643,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "C26")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3660,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6b2ec93c-2e8d-4760-bb14-d59dc9f96092")
-		(property "Reference" "R66"
+		(property "Reference" "R54"
 			(at 251.714 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,7 +3724,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R66")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3741,7 +3741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79906359-1ee8-43e1-8386-4099963487d1")
-		(property "Reference" "R69"
+		(property "Reference" "R57"
 			(at 274.574 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3805,7 +3805,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R69")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a5f157a-87b4-4594-8431-925a4c7587db")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR082"
 			(at 187.96 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3882,7 +3882,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR095")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3899,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7dede488-b0f5-4599-940d-0642a5c61030")
-		(property "Reference" "Q13"
+		(property "Reference" "Q11"
 			(at 202.438 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4019,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "Q13")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82c8be6e-4fa8-4fc0-b054-5a49055c71fc")
-		(property "Reference" "R55"
+		(property "Reference" "R43"
 			(at 62.992 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4100,7 +4100,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R55")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4117,7 +4117,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89567b01-55d7-4308-bac5-1e1c09027a7e")
-		(property "Reference" "R65"
+		(property "Reference" "R53"
 			(at 244.094 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4181,7 +4181,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R65")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -4198,7 +4198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c78bf95-0972-4562-977f-fc3209369eed")
-		(property "Reference" "R68"
+		(property "Reference" "R56"
 			(at 266.954 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4262,7 +4262,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R68")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -4279,7 +4279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c906e6f-27a2-40f5-a295-11cb0fbe0137")
-		(property "Reference" "C27"
+		(property "Reference" "C26"
 			(at 69.85 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,7 +4398,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "C27")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4415,7 +4415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91d88645-3679-4ae0-baa6-8e0cb4857312")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR078"
 			(at 104.14 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4475,7 +4475,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR091")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95bc6553-5eb7-46b2-9c3e-cf5888f0e36f")
-		(property "Reference" "C28"
+		(property "Reference" "C27"
 			(at 130.81 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4611,7 +4611,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "C28")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4628,7 +4628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9771b9a6-1ef8-4558-8ba3-d56cb0de6811")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR072"
 			(at 33.02 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4688,7 +4688,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR085")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdfb76f-ee5a-4a54-8b38-001de4950d44")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR075"
 			(at 64.77 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4765,7 +4765,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR088")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a54bde5b-430f-4e55-97ef-0593296c517f")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 199.39 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4869,7 +4869,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acdbd991-9e23-4288-ba39-5857f42174e1")
-		(property "Reference" "R61"
+		(property "Reference" "R49"
 			(at 213.614 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4950,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R61")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4967,7 +4967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae4d8e43-72e0-4cc1-b0c4-e1157a99a536")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR079"
 			(at 133.35 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5027,7 +5027,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR092")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5044,7 +5044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b728be45-e0ce-47b1-93b4-702e437efb12")
-		(property "Reference" "C29"
+		(property "Reference" "C28"
 			(at 140.716 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5163,7 +5163,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "C29")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -5180,7 +5180,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9d19091-d38a-4ba4-baa0-38f946f62850")
-		(property "Reference" "R53"
+		(property "Reference" "R41"
 			(at 31.242 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5244,7 +5244,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R53")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5261,7 +5261,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c00faede-c6dc-490a-abc8-57397c8ae82d")
-		(property "Reference" "R67"
+		(property "Reference" "R55"
 			(at 259.334 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5325,7 +5325,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R67")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -5342,7 +5342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c275bd1e-b28a-4daf-b4ef-ce90fcfc882d")
-		(property "Reference" "R57"
+		(property "Reference" "R45"
 			(at 105.41 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5406,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R57")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5423,7 +5423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c31c2ef1-07a5-4347-83a8-5a74e7fba80c")
-		(property "Reference" "U14"
+		(property "Reference" "U10"
 			(at 85.09 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +5494,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "U14")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -5511,7 +5511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d05bac32-3383-4bf9-8f59-7659274d996a")
-		(property "Reference" "R63"
+		(property "Reference" "R51"
 			(at 228.854 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,7 +5575,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R63")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d34faedb-dc6e-468c-8ad6-b783a65ed224")
-		(property "Reference" "R60"
+		(property "Reference" "R48"
 			(at 205.994 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,7 +5656,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R60")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -5673,7 +5673,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9945e7b-2336-44c8-b6f4-fa2d535ec836")
-		(property "Reference" "R52"
+		(property "Reference" "R40"
 			(at 31.242 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +5737,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R52")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5754,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3203f43-b75f-40b3-95b1-8999a0c65b6d")
-		(property "Reference" "R56"
+		(property "Reference" "R44"
 			(at 78.994 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +5818,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R56")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5835,7 +5835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea511cba-6e8f-4928-906e-4f903f420334")
-		(property "Reference" "R58"
+		(property "Reference" "R46"
 			(at 181.61 66.802 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +5941,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "R58")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb0e0b36-9309-40ee-a295-fa91786ab9c9")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR083"
 			(at 196.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6018,7 +6018,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR096")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6035,7 +6035,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7c6c9de-d966-4b66-bc93-aaa623502db0")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR077"
 			(at 81.28 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6095,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR090")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -6112,7 +6112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8e76cc6-2bfe-44b9-9e0c-a6d7b0b885ac")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR081"
 			(at 148.59 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6172,7 +6172,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/a007591f-84d3-407e-9d5e-40712b15c937"
-					(reference "#PWR094")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)

@@ -349,6 +349,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "nrobotics:VBAT"
 			(power global)
 			(pin_numbers
@@ -757,7 +880,7 @@
 		(uuid "0e4578db-f185-4cbd-bbf0-ba6626f73b02")
 	)
 	(circle
-		(center 180.34 86.36)
+		(center 180.34 73.66)
 		(radius 2.2895)
 		(stroke
 			(width -0.0001)
@@ -809,8 +932,8 @@
 		(uuid "58195f7f-f979-4e87-94f6-cdeab457f907")
 	)
 	(rectangle
-		(start 245.11 22.098)
-		(end 278.13 71.12)
+		(start 248.92 18.288)
+		(end 281.94 67.31)
 		(stroke
 			(width 0)
 			(type dash)
@@ -834,19 +957,6 @@
 		(uuid "7eb1256d-d760-4d94-b89e-4e6fd96b985c")
 	)
 	(circle
-		(center 266.7 18.415)
-		(radius 2.2895)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 255 153 0 1)
-		)
-		(uuid "b6c991c5-664c-4e04-b9b3-2da0b4b9032f")
-	)
-	(circle
 		(center 82.55 168.91)
 		(radius 2.2895)
 		(stroke
@@ -858,6 +968,18 @@
 			(color 0 255 0 1)
 		)
 		(uuid "e62fe84b-6a6a-473b-91dc-55d4f029e44e")
+	)
+	(rectangle
+		(start 154.94 166.37)
+		(end 173.99 195.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "e89d9062-828c-4166-af33-4ece5f633083")
 	)
 	(circle
 		(center 43.18 60.96)
@@ -872,17 +994,17 @@
 		)
 		(uuid "ee04a518-575c-459f-8143-9d19da7efb3e")
 	)
-	(text "Monitor / show if FUSE pops?"
+	(text "crowbar to before the E-STOP?"
 		(exclude_from_sim no)
-		(at 200.406 67.056 0)
+		(at 145.034 73.66 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 1.905 1.905)
 				(thickness 0.2381)
 				(color 255 153 0 1)
 			)
 		)
-		(uuid "04a77620-055a-445e-87fe-213295332d7c")
+		(uuid "3964669d-63ea-4145-ad8b-7369f7c842d5")
 	)
 	(text "git add . ':!hardware/lib/kicad-lib'"
 		(exclude_from_sim no)
@@ -894,21 +1016,20 @@
 		)
 		(uuid "5824b9df-14ea-4269-a286-c9040c6e9efe")
 	)
-	(text "need to switch CAN also?"
+	(text "MOUNTING"
 		(exclude_from_sim no)
-		(at 44.704 40.132 0)
+		(at 154.686 164.846 0)
 		(effects
 			(font
-				(size 2.54 2.54)
-				(thickness 0.2381)
-				(color 255 153 0 1)
+				(size 1.905 1.905)
 			)
+			(justify left)
 		)
-		(uuid "62b7764d-6f5b-45aa-a69c-2ca865e9b415")
+		(uuid "6c534220-19f2-42d2-9cf4-bdc65db1de25")
 	)
 	(text "BUS STATUS"
 		(exclude_from_sim no)
-		(at 245.11 20.32 0)
+		(at 248.92 16.51 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -918,7 +1039,7 @@
 		(uuid "9cec40e9-f299-46f6-8dcf-abc4ce762f89")
 	)
 	(junction
-		(at 273.05 46.99)
+		(at 276.86 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d43e308-675f-4664-850f-3174f80fab28")
@@ -942,7 +1063,7 @@
 		(uuid "8c1dbf50-a289-421c-a1a4-1dee99b29968")
 	)
 	(junction
-		(at 273.05 59.69)
+		(at 276.86 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8103667-f711-4d2a-a7a9-a2e64e808d59")
@@ -953,9 +1074,25 @@
 		(color 0 0 0 0)
 		(uuid "ded7e59a-7084-4b6a-a17a-9a0f6c3fc4a2")
 	)
+	(no_connect
+		(at 162.56 170.18)
+		(uuid "0f778322-a60c-4377-8a25-1a4916ea5637")
+	)
+	(no_connect
+		(at 162.56 180.34)
+		(uuid "6ed4ff41-7662-4d0c-a0e0-8ab1836412e4")
+	)
+	(no_connect
+		(at 162.56 185.42)
+		(uuid "d93f2e10-d793-44d9-83f3-e3a4c87ade6f")
+	)
+	(no_connect
+		(at 162.56 175.26)
+		(uuid "dec84084-3959-4f9e-995d-d95cd02f74ca")
+	)
 	(wire
 		(pts
-			(xy 264.16 59.69) (xy 260.35 59.69)
+			(xy 267.97 55.88) (xy 264.16 55.88)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 34.29) (xy 260.35 34.29)
+			(xy 267.97 30.48) (xy 264.16 30.48)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 34.29) (xy 273.05 59.69)
+			(xy 276.86 30.48) (xy 276.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 34.29) (xy 273.05 34.29)
+			(xy 273.05 30.48) (xy 276.86 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 59.69) (xy 273.05 59.69)
+			(xy 273.05 55.88) (xy 276.86 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 251.46 46.99)
+			(xy 255.27 39.37) (xy 255.27 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1105,7 +1242,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 30.48) (xy 251.46 34.29)
+			(xy 255.27 26.67) (xy 255.27 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 59.69) (xy 273.05 63.5)
+			(xy 276.86 55.88) (xy 276.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1225,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 55.88) (xy 251.46 59.69)
+			(xy 255.27 52.07) (xy 255.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 46.99) (xy 260.35 46.99)
+			(xy 267.97 43.18) (xy 264.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1255,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 46.99) (xy 273.05 46.99)
+			(xy 273.05 43.18) (xy 276.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1275,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 34.29) (xy 255.27 34.29)
+			(xy 255.27 30.48) (xy 259.08 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1305,7 +1442,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 59.69) (xy 255.27 59.69)
+			(xy 255.27 55.88) (xy 259.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1375,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 46.99) (xy 255.27 46.99)
+			(xy 255.27 43.18) (xy 259.08 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1455,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 257.81 34.29 0)
+		(at 261.62 30.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1464,10 +1601,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01795a74-e79c-4b95-b1bc-2237a019bb25")
 		(property "Reference" "D1"
-			(at 257.7465 27.94 0)
+			(at 261.62 24.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1476,8 +1612,8 @@
 				)
 			)
 		)
-		(property "Value" "RED"
-			(at 257.7465 30.48 0)
+		(property "Value" "VBAT"
+			(at 261.62 27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1486,8 +1622,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 257.81 34.29 90)
+		(property "Footprint" "nrobotics:LEDC1608X70N"
+			(at 261.62 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1498,7 +1634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 34.29 90)
+			(at 261.62 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,8 +1644,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 257.81 34.29 0)
+		(property "Description" "LED RED"
+			(at 261.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1656,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 34.29 0)
+			(at 261.62 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 261.62 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1546,19 +1693,18 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 266.7 59.69 270)
-		(mirror x)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 175.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "101ffa8c-4f18-40ea-b06c-638634d5729d")
-		(property "Reference" "R3"
-			(at 265.049 57.15 90)
+		(uuid "459dbbed-c097-4d41-bbde-53e0d6f4c6c7")
+		(property "Reference" "H2"
+			(at 168.91 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1568,8 +1714,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 265.049 55.118 90)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1001 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1580,7 +1727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 59.69 0)
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1591,7 +1738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 59.69 0)
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1601,8 +1748,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 266.7 59.69 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,55 +1760,53 @@
 			)
 		)
 		(pin "1"
-			(uuid "866a4779-48a3-4f1c-9297-11dba9e067da")
-		)
-		(pin "2"
-			(uuid "52ea5587-8327-4dfe-821b-9be5a600eea2")
+			(uuid "a1e54fd8-89ca-47b2-a8e5-e2f4be7484f0")
 		)
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
-					(reference "R3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 257.81 59.69 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 180.34 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1826742d-2894-4228-8b70-e2bd92a7d142")
-		(property "Reference" "D3"
-			(at 257.7465 53.34 0)
+		(uuid "5a6b1765-c523-47c2-b53c-db857a5fa891")
+		(property "Reference" "H3"
+			(at 168.91 180.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "RED"
-			(at 257.7465 55.88 0)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1001 182.88 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 59.69 90)
+			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 59.69 90)
+			(at 165.1 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1682,8 +1827,85 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 257.81 59.69 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fd7ad7a-3323-4e6e-b8ab-a3bacec01f84")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 261.62 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5e9ada66-3362-454b-b90b-27b11615082f")
+		(property "Reference" "D3"
+			(at 261.62 50.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLOAD"
+			(at 261.62 52.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "nrobotics:LEDC1608X70N"
+			(at 261.62 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED RED"
+			(at 261.62 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1694,7 +1916,18 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 59.69 0)
+			(at 261.62 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 261.62 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,10 +1938,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b1ce66b-75ed-404b-84fb-563c04634880")
+			(uuid "00f53fe1-d13a-4f26-b3ac-899ae3699c68")
 		)
 		(pin "1"
-			(uuid "462ad3bc-f5c4-4126-b2a5-25c607b46810")
+			(uuid "18236245-2f99-4552-8670-45066e60947e")
 		)
 		(instances
 			(project "BatteryEStop"
@@ -1721,7 +1954,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 251.46 43.18 0)
+		(at 255.27 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1731,7 +1964,7 @@
 		(dnp no)
 		(uuid "6133e050-3915-4997-82d0-228788c88da5")
 		(property "Reference" "#PWR02"
-			(at 251.46 46.99 0)
+			(at 255.27 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1975,7 @@
 			)
 		)
 		(property "Value" "VLOAD"
-			(at 251.46 39.116 0)
+			(at 255.27 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1752,7 +1985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 43.18 0)
+			(at 255.27 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1763,7 +1996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 43.18 0)
+			(at 255.27 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +2007,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VLOAD\""
-			(at 251.46 43.18 0)
+			(at 255.27 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1797,9 +2030,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 266.7 46.99 270)
-		(mirror x)
+		(lib_id "Device:LED_Small")
+		(at 261.62 43.18 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1807,31 +2040,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7b807a7f-6722-4bcb-a8d3-9ae6881b6e6d")
-		(property "Reference" "R2"
-			(at 265.049 44.45 90)
+		(uuid "64ff55be-748e-4f31-bdcd-31cc4fe0ad3a")
+		(property "Reference" "D2"
+			(at 261.62 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 265.049 42.418 90)
+		(property "Value" "VLOAD"
+			(at 261.62 39.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 266.7 46.99 0)
+		(property "Footprint" "nrobotics:LEDC1608X70N"
+			(at 261.62 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1842,7 +2073,111 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 46.99 0)
+			(at 261.62 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED RED"
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "150060RS75000"
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd15fb45-83ea-47f4-876d-a257f32de912")
+		)
+		(pin "1"
+			(uuid "f50a285a-3e78-454a-992c-44c9af674a3d")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 270.51 55.88 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "809c20ef-d8d4-4c85-935f-bf44aad021e9")
+		(property "Reference" "R3"
+			(at 268.605 51.562 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 268.478 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 270.51 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1853,7 +2188,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 266.7 46.99 0)
+			(at 270.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1864,15 +2199,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a200cb6-c90a-4d78-99e1-0b4e6bc72ebf")
+			(uuid "b2d195b0-8023-4da7-b707-20260826ca1c")
 		)
 		(pin "2"
-			(uuid "e147ea1e-a807-4aa3-af2e-2d4f541d4a5d")
+			(uuid "0441077c-25dc-4ccc-8c06-a5b3531fe7e1")
 		)
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -1880,7 +2215,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 251.46 55.88 0)
+		(at 255.27 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1890,7 +2225,7 @@
 		(dnp no)
 		(uuid "844cc401-e246-43b6-acf4-97809bf36379")
 		(property "Reference" "#PWR03"
-			(at 251.46 59.69 0)
+			(at 255.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +2236,7 @@
 			)
 		)
 		(property "Value" "VOUT"
-			(at 251.46 51.816 0)
+			(at 255.27 48.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1911,7 +2246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 55.88 0)
+			(at 255.27 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,7 +2257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 55.88 0)
+			(at 255.27 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1933,7 +2268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VLOAD\""
-			(at 251.46 55.88 0)
+			(at 255.27 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,40 +2291,41 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 257.81 46.99 0)
-		(mirror y)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 170.18 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d8235bb-08e3-4677-84f2-d6f94f3aa41f")
-		(property "Reference" "D2"
-			(at 257.7465 40.64 0)
+		(uuid "bcd1cc3f-d72c-46ad-aa7b-b8fed90847ad")
+		(property "Reference" "H1"
+			(at 168.91 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "RED"
-			(at 257.7465 43.18 0)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1001 172.72 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 46.99 90)
+			(at 165.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2000,7 +2336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 46.99 90)
+			(at 165.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,8 +2346,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 257.81 46.99 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2020,28 +2356,175 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 257.81 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8144c435-36b3-4383-ac23-edfcf8babc56")
 		)
 		(pin "1"
-			(uuid "5c30e599-a8f1-42c2-a21a-9977b96d9aa0")
+			(uuid "69043c30-ff6c-441a-a472-fd7289985c3b")
 		)
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
-					(reference "D2")
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 165.1 185.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be525f79-bd8f-4381-9d95-eaebd4997085")
+		(property "Reference" "H4"
+			(at 168.91 185.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 165.1001 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 165.1 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "155573b2-3971-4f6a-9f72-6fc5be274711")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 270.51 43.18 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9de428e-bddc-47b0-a00d-f7b1aab7665b")
+		(property "Reference" "R2"
+			(at 268.605 38.862 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 268.478 40.894 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 270.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cd464d0-e521-4768-a36c-4b37814ac622")
+		)
+		(pin "2"
+			(uuid "f92067dd-2872-4485-acd4-0421d11fe006")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2049,7 +2532,7 @@
 	)
 	(symbol
 		(lib_id "nrobotics:VBAT")
-		(at 251.46 30.48 0)
+		(at 255.27 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2059,7 +2542,7 @@
 		(dnp no)
 		(uuid "daef89da-41d4-4756-9a97-e7a4cb058141")
 		(property "Reference" "#PWR01"
-			(at 251.46 34.29 0)
+			(at 255.27 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +2553,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 251.46 26.416 0)
+			(at 255.27 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2080,7 +2563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 30.48 0)
+			(at 255.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2091,7 +2574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 30.48 0)
+			(at 255.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2585,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBAT\""
-			(at 251.46 30.48 0)
+			(at 255.27 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2126,7 +2609,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 266.7 34.29 270)
+		(at 270.51 30.48 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2137,7 +2620,7 @@
 		(dnp no)
 		(uuid "df316edc-58aa-4380-81b7-3e2d9b46daa2")
 		(property "Reference" "R1"
-			(at 265.049 31.75 90)
+			(at 268.605 26.162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2147,8 +2630,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 265.049 29.718 90)
+		(property "Value" "10K"
+			(at 268.478 28.194 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2158,8 +2641,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 266.7 34.29 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 270.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 34.29 0)
+			(at 270.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2181,7 +2664,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 266.7 34.29 0)
+			(at 270.51 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2208,7 +2691,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 273.05 63.5 0)
+		(at 276.86 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2218,7 +2701,7 @@
 		(dnp no)
 		(uuid "f1abb50f-3383-4ac4-bb83-a40c14688aa0")
 		(property "Reference" "#PWR04"
-			(at 273.05 69.85 0)
+			(at 276.86 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,7 +2712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 67.564 0)
+			(at 276.86 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2239,7 +2722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 63.5 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2250,7 +2733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 63.5 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2261,7 +2744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 63.5 0)
+			(at 276.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

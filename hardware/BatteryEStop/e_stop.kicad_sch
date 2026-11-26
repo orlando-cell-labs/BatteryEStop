@@ -302,34 +302,60 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "nrobotics:CRSS042N10N"
+		(symbol "nrobotics:IPT015N10N5ATMA1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 0 10.16 0)
+				(at -9.144 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "CRSS042N10N"
-				(at 0 -10.16 0)
+			(property "Value" "IPT015N10N5ATMA1"
+				(at -9.144 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "nRobotics:TO-263-3_L10.2-W10.7-P5.08-LS16.2-TL"
-				(at 0 -12.7 0)
+			(property "Footprint" "IPT015N10N5ATMA1"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_02-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MOSFET N-Ch 100V 300A OptiMOS5 HSOF8"
+				(at 0.762 -3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -339,8 +365,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CRMICRO-CRSS042N10N_C410926.html"
-				(at 0 -15.24 0)
+			(property "Height" "2.4"
+				(at 21.59 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -348,10 +374,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "726-IPT015N10N5ATMA1"
+				(at 21.59 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -359,10 +386,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Manufacturer" "CRMICRO(华润微)"
-				(at 0 -17.78 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT015N10N5ATMA1?qs=3Bi3m9r5MQbDSk0MXArIQw%3D%3D"
+				(at 21.59 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -370,10 +398,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "MPN" "CRSS042N10N"
-				(at 0 -20.32 0)
+			(property "Manufacturer_Name" "Infineon"
+				(at 21.59 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -381,10 +410,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "LCSC Part" "C410926"
-				(at 0 -22.86 0)
+			(property "Manufacturer_Part_Number" "IPT015N10N5ATMA1"
+				(at 21.59 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -392,142 +422,179 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_keywords" "MOSFETs"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "IPT015N10N5ATMA1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 -1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.286) (xy 1.905 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 0.762) (xy 0.254 0.381) (xy 0.254 1.143) (xy -0.381 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 0.381) (xy -0.381 1.143)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -0.889)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.524) (xy -0.381 -0.508) (xy 0.381 -0.508) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.778) (xy 1.778 0.762) (xy -1.778 0.762) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "CRSS042N10N_0_1"
-				(polyline
-					(pts
-						(xy -1.78 2.29) (xy -1.78 -2.29)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.29) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.78) (xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0.25 -0.51) (xy 0.25 0.51) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.51) (xy -1.27 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.29) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.78) (xy -1.27 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.96 0.57) (xy 4.59 0.57)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0.51) (xy 3.05 -0.76) (xy 4.57 -0.76) (xy 3.81 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -3.81 0 0)
+			(symbol "IPT015N10N5ATMA1_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
 					(length 2.54)
 					(name "G"
 						(effects
@@ -544,10 +611,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 1.27 5.08 270)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -562,9 +629,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 1.27 -5.08 90)
+				(pin passive line
+					(at 5.08 0 180)
 					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -573,6 +641,309 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1733,7 +2104,7 @@
 	)
 	(rectangle
 		(start 137.16 22.86)
-		(end 265.43 144.78)
+		(end 236.22 144.78)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1765,17 +2136,6 @@
 		)
 		(uuid "39dc46a3-583b-4f5f-9e44-5d75c5b2d49e")
 	)
-	(text "inrush R"
-		(exclude_from_sim no)
-		(at 186.436 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d83719e-1d56-44ad-b5e5-2de7ed0aa300")
-	)
 	(text "use 2 remaining pins to monitor in mcu"
 		(exclude_from_sim no)
 		(at 61.214 94.996 0)
@@ -1802,7 +2162,7 @@
 	)
 	(text "FLT_GD to crowbar + MCU"
 		(exclude_from_sim no)
-		(at 240.03 113.792 0)
+		(at 260.604 104.394 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -1845,11 +2205,17 @@
 		)
 		(uuid "87f6b003-f341-4547-a46f-2c07797c2f21")
 	)
-	(junction
-		(at 248.92 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19f07f3b-ff1e-426e-bfaf-425a60b28ab0")
+	(text "where is this derived from?"
+		(exclude_from_sim no)
+		(at 85.09 32.766 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "cda6c198-92d9-4cb5-a45a-acab33d78733")
 	)
 	(junction
 		(at 208.28 72.39)
@@ -1858,16 +2224,16 @@
 		(uuid "1a16c0f2-133e-4971-912e-d2bb30318549")
 	)
 	(junction
-		(at 243.84 62.23)
+		(at 208.28 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2da42d8e-416a-4fc9-8f1c-93c999c5342b")
+		(uuid "1c7d28fe-9135-4e9f-ac83-9b9bf3e50965")
 	)
 	(junction
-		(at 208.28 62.23)
+		(at 170.18 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "308b23f6-ad08-4bd3-aef8-26d0bb1c7b7e")
+		(uuid "1cf1114b-9e4c-43b1-b199-b6dd022a1c76")
 	)
 	(junction
 		(at 200.66 129.54)
@@ -1900,18 +2266,6 @@
 		(uuid "7123febb-ae41-40d3-8ab2-b8f26055a67a")
 	)
 	(junction
-		(at 208.28 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "824c139f-8144-45ee-9ded-b0182a25bdce")
-	)
-	(junction
-		(at 170.18 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "844abb37-d140-4670-8194-4cfdae331bf4")
-	)
-	(junction
 		(at 55.88 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1922,12 +2276,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9139b09a-e89f-463c-809b-17eaeaaa07ff")
-	)
-	(junction
-		(at 180.34 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af995869-9594-4ae4-a448-094238499e17")
 	)
 	(junction
 		(at 205.74 129.54)
@@ -1954,10 +2302,16 @@
 		(uuid "d61ab8a7-8ee4-4267-abfe-2f94d33dc017")
 	)
 	(junction
-		(at 236.22 62.23)
+		(at 248.92 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dd9152e4-88ac-45a4-a727-3a960e5e9d34")
+		(uuid "f39ff1d8-690f-485c-84a8-64a57ebaaeb6")
+	)
+	(junction
+		(at 243.84 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6e49ab0-9062-40e8-9294-3f338d1d827a")
 	)
 	(no_connect
 		(at 57.15 110.49)
@@ -1983,16 +2337,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 170.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0709a2dc-9250-4e87-8774-bc93cf61533e")
-	)
-	(wire
-		(pts
 			(xy 40.64 62.23) (xy 44.45 62.23)
 		)
 		(stroke
@@ -2013,16 +2357,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 180.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b0595d0-296f-4615-9d0b-f3f03c570c9e")
-	)
-	(wire
-		(pts
 			(xy 44.45 71.12) (xy 44.45 73.66)
 		)
 		(stroke
@@ -2030,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "0c84ef79-c7a3-4be4-bd3c-95d5df1aa2d2")
-	)
-	(wire
-		(pts
-			(xy 236.22 36.83) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc6f65c-3e1c-4383-8fce-2c69ca16e2f8")
 	)
 	(wire
 		(pts
@@ -2063,16 +2387,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 62.23) (xy 187.96 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "196acea5-8405-426d-88fc-a32e71cb98e9")
-	)
-	(wire
-		(pts
 			(xy 198.12 81.28) (xy 201.93 81.28)
 		)
 		(stroke
@@ -2090,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "1ca0d3c1-b468-43f3-ba5e-cb98a01fac35")
-	)
-	(wire
-		(pts
-			(xy 193.04 52.07) (xy 200.66 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216f2036-6d5c-493d-b33b-7da676e1809f")
 	)
 	(wire
 		(pts
@@ -2153,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 62.23) (xy 170.18 62.23)
+			(xy 129.54 59.69) (xy 170.18 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2183,16 +2487,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 36.83) (xy 208.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328173a1-9191-4858-828e-97e6b9d97768")
-	)
-	(wire
-		(pts
 			(xy 149.86 100.33) (xy 149.86 106.68)
 		)
 		(stroke
@@ -2210,16 +2504,6 @@
 			(type default)
 		)
 		(uuid "377413bb-3f3a-4879-8192-84a8e67e65fa")
-	)
-	(wire
-		(pts
-			(xy 248.92 62.23) (xy 273.05 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38eac9c1-6fac-4d92-b0d9-b75b43589c11")
 	)
 	(wire
 		(pts
@@ -2263,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 59.69) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6e6281-1fa8-4290-88c5-2d5687b9c835")
+	)
+	(wire
+		(pts
 			(xy 62.23 118.11) (xy 66.04 118.11)
 		)
 		(stroke
@@ -2273,16 +2567,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 36.83) (xy 208.28 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d0b6ec8-3785-4277-93f3-c40234be6fe5")
-	)
-	(wire
-		(pts
 			(xy 193.04 77.47) (xy 193.04 85.09)
 		)
 		(stroke
@@ -2290,16 +2574,6 @@
 			(type default)
 		)
 		(uuid "536e719c-cba4-42ee-a45c-c75b71bce97b")
-	)
-	(wire
-		(pts
-			(xy 208.28 62.23) (xy 217.17 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "563dee43-b694-4d60-9166-8d34745f6513")
 	)
 	(wire
 		(pts
@@ -2383,6 +2657,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 59.69) (xy 248.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7dd101-d00c-4b1b-a225-b2c0f10490e2")
+	)
+	(wire
+		(pts
 			(xy 59.69 118.11) (xy 55.88 118.11)
 		)
 		(stroke
@@ -2413,13 +2697,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 62.23) (xy 236.22 62.23)
+			(xy 187.96 59.69) (xy 170.18 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75faea0f-b2c8-4442-b751-dbe801a68ac7")
+		(uuid "76fbaba9-7b78-4955-b180-2000553180b7")
 	)
 	(wire
 		(pts
@@ -2430,16 +2714,6 @@
 			(type default)
 		)
 		(uuid "78a5094b-b903-483a-a15d-5fb4fea01634")
-	)
-	(wire
-		(pts
-			(xy 193.04 49.53) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b20d118-e0b3-4e10-a585-9f25a7fd84bb")
 	)
 	(wire
 		(pts
@@ -2463,26 +2737,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 62.23) (xy 248.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81e09f32-4d95-4b63-bed1-9141277bcd2b")
-	)
-	(wire
-		(pts
-			(xy 198.12 62.23) (xy 208.28 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81ea2e4d-2f9f-4a2c-81d5-5d6c62e51d06")
-	)
-	(wire
-		(pts
 			(xy 203.2 72.39) (xy 203.2 85.09)
 		)
 		(stroke
@@ -2503,13 +2757,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 67.31) (xy 222.25 69.85)
+			(xy 170.18 59.69) (xy 170.18 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8714c0a5-64fe-4d80-83f5-0f1cfd0dc24b")
+		(uuid "88333785-54d0-4756-beb4-7192fc803344")
 	)
 	(wire
 		(pts
@@ -2523,16 +2777,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 77.47) (xy 229.87 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fabb8ae-f75e-4917-9edd-8afbbdebfd63")
-	)
-	(wire
-		(pts
 			(xy 45.72 121.92) (xy 55.88 121.92)
 		)
 		(stroke
@@ -2543,16 +2787,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 49.53) (xy 223.52 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92b3b5fa-840a-44d1-b36f-5c110838ecc5")
-	)
-	(wire
-		(pts
 			(xy 190.5 129.54) (xy 195.58 129.54)
 		)
 		(stroke
@@ -2560,6 +2794,16 @@
 			(type default)
 		)
 		(uuid "9aa51858-ac5d-445e-9a14-c1c346b233e5")
+	)
+	(wire
+		(pts
+			(xy 198.12 59.69) (xy 208.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9baa15a8-50e6-4bc8-bffd-62284b802203")
 	)
 	(wire
 		(pts
@@ -2593,23 +2837,13 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 36.83) (xy 180.34 62.23)
+			(xy 248.92 59.69) (xy 256.54 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b10de4e2-3e5c-4c2f-a2af-0978b6b26229")
-	)
-	(wire
-		(pts
-			(xy 243.84 62.23) (xy 236.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63fad1d-2d83-4c2f-ba77-3f5618cd5e36")
+		(uuid "b5246042-c542-4150-8425-7c920356e2e9")
 	)
 	(wire
 		(pts
@@ -2623,16 +2857,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 62.23) (xy 208.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b5c9c3-81d9-4ec7-a6a0-a2c013a59371")
-	)
-	(wire
-		(pts
 			(xy 208.28 72.39) (xy 203.2 72.39)
 		)
 		(stroke
@@ -2640,16 +2864,6 @@
 			(type default)
 		)
 		(uuid "c1459ff9-a049-49ba-aa64-9ebbded74d10")
-	)
-	(wire
-		(pts
-			(xy 193.04 41.91) (xy 193.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2b956df-313b-464a-85d6-b9c6f7bc4531")
 	)
 	(wire
 		(pts
@@ -2673,16 +2887,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 41.91) (xy 223.52 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe4441e-f763-4f94-ac54-e9ceedfb912f")
-	)
-	(wire
-		(pts
 			(xy 182.88 85.09) (xy 182.88 81.28)
 		)
 		(stroke
@@ -2700,26 +2904,6 @@
 			(type default)
 		)
 		(uuid "d68e07e4-80da-411e-b5ca-ca7832e11de7")
-	)
-	(wire
-		(pts
-			(xy 228.6 36.83) (xy 236.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcb1444a-0aea-4df1-ad86-97cabff5404b")
-	)
-	(wire
-		(pts
-			(xy 208.28 36.83) (xy 218.44 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0b5d44-c142-4803-a617-cb8c6fdb6883")
 	)
 	(wire
 		(pts
@@ -2743,33 +2927,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 74.93) (xy 222.25 77.47)
+			(xy 208.28 59.69) (xy 243.84 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edd380e3-cfd6-4069-8215-99af02fad3b6")
+		(uuid "e8fb00f3-210b-4c8a-b8b2-2de6083caa71")
 	)
 	(wire
 		(pts
-			(xy 248.92 58.42) (xy 248.92 62.23)
+			(xy 248.92 55.88) (xy 248.92 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f36fed29-7e3a-431c-b01d-f199170b41c0")
-	)
-	(wire
-		(pts
-			(xy 223.52 52.07) (xy 231.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5c9d61e-59f5-4037-bde6-d12ec721e33a")
 	)
 	(wire
 		(pts
@@ -2831,16 +3005,6 @@
 		)
 		(uuid "99771db6-26b7-4250-9a80-d64ab40765c6")
 	)
-	(label "GATE"
-		(at 200.66 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c4829e8-7659-4c54-ab31-9071e03b3c46")
-	)
 	(label "RADIO_ESTOP_EN"
 		(at 157.48 111.76 0)
 		(effects
@@ -2881,26 +3045,6 @@
 		)
 		(uuid "c81cc165-cc63-40a6-a202-bfe5915deab4")
 	)
-	(label "GATE"
-		(at 229.87 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cdcd052c-ab9a-4609-a9ed-8c38759edc96")
-	)
-	(label "GATE"
-		(at 231.14 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d8ccdca4-a0df-4a18-ae14-c04a8f0589f1")
-	)
 	(hierarchical_label "MCU_ESTOP_EN"
 		(shape input)
 		(at 45.72 121.92 180)
@@ -2925,7 +3069,7 @@
 	)
 	(hierarchical_label "ESTOP_STATE"
 		(shape input)
-		(at 227.33 124.46 0)
+		(at 80.01 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2936,7 +3080,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 129.54 62.23 180)
+		(at 129.54 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2947,7 +3091,7 @@
 	)
 	(hierarchical_label "VLOAD"
 		(shape input)
-		(at 273.05 62.23 0)
+		(at 256.54 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,7 +3122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "043f0a42-f178-4103-844e-7773b30fc7b2")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR054"
 			(at 205.74 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3038,144 +3182,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrobotics:CRSS042N10N")
-		(at 193.04 63.5 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0652e2e3-5bfd-4bce-951d-5c8b9b6b59ef")
-		(property "Reference" "Q6"
-			(at 195.58 55.626 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPB042N10N3GATMA1"
-			(at 204.47 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nrobotics:TO-263-3_L10.2-W10.7-P5.08-LS16.2-TL"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CRMICRO-CRSS042N10N_C410926.html"
-			(at 208.28 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CRSS042N10N"
-			(at 213.36 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "726-IPB042N10N3GATMA"
-			(at 193.04 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 193.04 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 193.04 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 193.04 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db53fd58-0154-4285-ac62-48cb45083ebb")
-		)
-		(pin "3"
-			(uuid "619d1fd7-ad1a-412e-874c-fde34764d816")
-		)
-		(pin "1"
-			(uuid "aca36e93-505f-4326-a0ec-3e683ff2bec3")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "Q6")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3329,7 +3336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fc1b44f-8b90-4b6d-8cba-edf2c8836276")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR050"
 			(at 27.94 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3389,7 +3396,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR052")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c29a099-0e05-4ae5-9a1b-8c6504a40ac3")
-		(property "Reference" "R28"
+		(property "Reference" "R21"
 			(at 78.74 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3471,7 +3478,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R28")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "311d96b4-9288-4456-ac3f-a3a6125bf5b6")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -3548,7 +3555,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3556,7 +3563,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 243.84 62.23 0)
+		(at 243.84 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3567,7 +3574,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bdfe70a-02fe-48f5-b159-b7dad64e2c39")
 		(property "Reference" "#FLG07"
-			(at 243.84 60.325 0)
+			(at 243.84 57.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3578,7 +3585,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 243.84 57.15 0)
+			(at 243.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 62.23 0)
+			(at 243.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +3607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 62.23 0)
+			(at 243.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3618,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 243.84 62.23 0)
+			(at 243.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +3652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f0a78cf-ae2c-456b-b043-4fc4b64fb01b")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 152.908 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3751,7 +3758,200 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R21")
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "nrobotics:IPT015N10N5ATMA1")
+		(at 193.04 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5417e03d-8eca-4a2d-a44d-24a4c1c88b37")
+		(property "Reference" "Q1"
+			(at 193.04 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IPT015N10N5ATMA1"
+			(at 193.04 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "IPT015N10N5ATMA1"
+			(at 214.63 154.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPT015N10N5-DS-v02_02-EN.pdf?fileId=5546d4624a75e5f1014ac94680661aff"
+			(at 214.63 254.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MOSFET N-Ch 100V 300A OptiMOS5 HSOF8"
+			(at 193.802 62.992 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.4"
+			(at 214.63 454.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-IPT015N10N5ATMA1"
+			(at 214.63 554.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/IPT015N10N5ATMA1?qs=3Bi3m9r5MQbDSk0MXArIQw%3D%3D"
+			(at 214.63 654.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 214.63 754.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IPT015N10N5ATMA1"
+			(at 214.63 854.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "11"
+			(uuid "f03030f3-4e17-4429-901f-8739b329d892")
+		)
+		(pin "12"
+			(uuid "989dcdbd-2750-4931-b519-a64d1d8ddc75")
+		)
+		(pin "13"
+			(uuid "24f551c7-5fe5-4363-8434-dc32b135ffe8")
+		)
+		(pin "14"
+			(uuid "4eb871f4-f729-4e7a-804c-91354b084088")
+		)
+		(pin "15"
+			(uuid "fc4f5780-0e67-425e-b526-efa547ddf40d")
+		)
+		(pin "16"
+			(uuid "450501de-401a-4dc0-b13b-18992b632e1b")
+		)
+		(pin "17"
+			(uuid "dd205966-2c42-4dd3-989e-a71e28bdf3e0")
+		)
+		(pin "18"
+			(uuid "a5ea2440-12c3-4267-b15e-ed870d189924")
+		)
+		(pin "19"
+			(uuid "bbf11de1-b87d-4275-8bc0-72d022886bed")
+		)
+		(pin "9"
+			(uuid "a549484f-c32c-4318-b4f4-2c971e4bb450")
+		)
+		(pin "10"
+			(uuid "80de9ce2-6d68-4d1b-8550-c41436decc7d")
+		)
+		(pin "4"
+			(uuid "c6dbe012-92ff-4c80-ab8b-a8968ff69ccb")
+		)
+		(pin "1"
+			(uuid "219e02a8-cb5c-4630-920c-88602a352398")
+		)
+		(pin "3"
+			(uuid "4bfadbc0-3bb9-453c-85ba-892bce6a3e6e")
+		)
+		(pin "5"
+			(uuid "f59c7557-0632-4401-aa9e-9871afea186a")
+		)
+		(pin "2"
+			(uuid "19d37345-78d3-4a83-938e-7776f578d2d8")
+		)
+		(pin "8"
+			(uuid "a8e5cfb6-2c43-45c0-b0f1-f6968203dad3")
+		)
+		(pin "6"
+			(uuid "fb52d7e6-4e08-4910-b7e1-e6e2288bf18f")
+		)
+		(pin "3"
+			(uuid "cdd002a3-1ca3-4626-ba8a-c88745195904")
+		)
+		(instances
+			(project "BatteryEStop"
+				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3769,7 +3969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5b248f4b-c4c3-4d04-8019-a634f041d5e3")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 185.674 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +4075,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4025,7 +4225,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6a796a79-d2c7-4430-9131-ee25bf9dc043")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 62.992 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4036,7 +4236,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 60.96 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4046,7 +4246,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4088,7 +4288,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4106,7 +4306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bc42dcb-7c6c-4654-b422-876edd1d1b14")
-		(property "Reference" "R29"
+		(property "Reference" "R19"
 			(at 45.72 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4128,7 +4328,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 44.45 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4170,390 +4370,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 193.04 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6c35593f-427b-4e28-a5f5-c7f23baa2812")
-		(property "Reference" "R23"
-			(at 189.484 46.228 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47R"
-			(at 189.484 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "603-RT1206BRD0747RL "
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 193.04 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a45606e7-0ee1-4c82-943a-681740d3682d")
-		)
-		(pin "2"
-			(uuid "144db9ce-0419-420a-951e-549cb3bc30f8")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrobotics:CRSS042N10N")
-		(at 193.04 38.1 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e81bd30-214b-4142-95a3-375bdc107dd9")
-		(property "Reference" "Q5"
-			(at 195.58 30.226 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPB042N10N3GATMA1"
-			(at 204.47 32.512 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nrobotics:TO-263-3_L10.2-W10.7-P5.08-LS16.2-TL"
-			(at 205.74 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CRMICRO-CRSS042N10N_C410926.html"
-			(at 208.28 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CRSS042N10N"
-			(at 213.36 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "726-IPB042N10N3GATMA"
-			(at 193.04 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 193.04 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 193.04 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 193.04 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aeb6e3fa-3324-40c9-8d06-811d7474ce38")
-		)
-		(pin "3"
-			(uuid "58737002-786a-499f-8af5-f6c55e6bb952")
-		)
-		(pin "1"
-			(uuid "39702359-60dd-4946-a86c-30c6986740ff")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 222.25 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b746511-3560-4131-8ebd-dd0c4833cb80")
-		(property "Reference" "R25"
-			(at 218.694 71.628 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47R"
-			(at 218.694 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "603-RT1206BRD0747RL "
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 222.25 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "595dc780-6dc0-4269-98e7-89f394ab8c87")
-		)
-		(pin "2"
-			(uuid "a40af4d8-1533-425a-b20f-e80402088695")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R25")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d6d0ba1-3cfc-4b73-a0c0-a27bf5a89aab")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR053"
 			(at 149.86 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4630,7 +4447,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR048")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4648,7 +4465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93086faf-5fd2-49fa-be10-a3950e943c8f")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 55.88 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,145 +4605,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrobotics:CRSS042N10N")
-		(at 222.25 63.5 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "939f8e92-617c-4c10-85b5-cefab8d2a88e")
-		(property "Reference" "Q7"
-			(at 219.71 55.626 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPB042N10N3GATMA1"
-			(at 228.854 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nrobotics:TO-263-3_L10.2-W10.7-P5.08-LS16.2-TL"
-			(at 209.55 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CRMICRO-CRSS042N10N_C410926.html"
-			(at 207.01 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CRSS042N10N"
-			(at 201.93 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "726-IPB042N10N3GATMA"
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 222.25 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c647b054-6e4c-4dd4-b719-0dae3ecee05e")
-		)
-		(pin "3"
-			(uuid "157e4bd9-520c-472a-bc82-aa147447f203")
-		)
-		(pin "1"
-			(uuid "673e450f-87d2-46db-83be-f00415c5cb99")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "Q7")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99749abe-f260-4ab2-88f2-755cb6fe2ad2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR055"
 			(at 224.79 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5003,7 +4682,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR050")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5148,7 +4827,7 @@
 	)
 	(symbol
 		(lib_id "nrobotics:VBAT")
-		(at 248.92 58.42 0)
+		(at 248.92 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5157,8 +4836,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5593785-a847-4dd4-88b7-77021f868546")
-		(property "Reference" "#PWR051"
-			(at 248.92 62.23 0)
+		(property "Reference" "#PWR056"
+			(at 248.92 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5169,7 +4848,7 @@
 			)
 		)
 		(property "Value" "VLOAD"
-			(at 248.92 54.356 0)
+			(at 248.92 51.816 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5179,7 +4858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 58.42 0)
+			(at 248.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5190,7 +4869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 58.42 0)
+			(at 248.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5201,7 +4880,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBAT\""
-			(at 248.92 58.42 0)
+			(at 248.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,145 +4896,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "nrobotics:CRSS042N10N")
-		(at 223.52 38.1 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1db6987-6f53-4e9a-b08c-dc203e0365f8")
-		(property "Reference" "Q8"
-			(at 220.98 30.226 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IPB042N10N3GATMA1"
-			(at 230.124 32.512 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "nrobotics:TO-263-3_L10.2-W10.7-P5.08-LS16.2-TL"
-			(at 210.82 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_CRMICRO-CRSS042N10N_C410926.html"
-			(at 208.28 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CRSS042N10N"
-			(at 203.2 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "726-IPB042N10N3GATMA"
-			(at 223.52 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 223.52 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 223.52 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 223.52 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "377912d8-247d-4a87-a628-c1d55a8c2651")
-		)
-		(pin "3"
-			(uuid "cccb390f-0660-4e1b-b059-99956517f9e2")
-		)
-		(pin "1"
-			(uuid "f3c5987b-469f-46aa-bccb-67ca571cd707")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "Q8")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5372,7 +4913,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c5ea3d2c-2443-47fe-8a4e-ee1d163078c0")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 189.484 71.628 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5478,7 +5019,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5495,7 +5036,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6ae7064-b3ac-49b6-9b81-8ed948345617")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 44.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5555,130 +5096,7 @@
 		(instances
 			(project "BatteryEStop"
 				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 223.52 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fe88d9f0-b184-4551-abc4-d9b8ee159d4d")
-		(property "Reference" "R26"
-			(at 219.964 46.228 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47R"
-			(at 219.964 48.006 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser" "603-RT1206BRD0747RL "
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ok" "y"
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Fix-Required" ""
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Comment" ""
-			(at 223.52 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cb207c41-809a-4bf9-a0ed-a163aeb397dd")
-		)
-		(pin "2"
-			(uuid "17525333-c7d7-43f3-afcb-a20c95ca0f8d")
-		)
-		(instances
-			(project "BatteryEStop"
-				(path "/56bb87b1-d063-468b-8e41-f1e1b1faddd7/28f7ad57-5019-418c-8c29-3285a77ee642"
-					(reference "R26")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

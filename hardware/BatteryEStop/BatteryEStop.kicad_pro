@@ -618,12 +618,246 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Displayed name",
+          "name": "Displayed name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fix-Required",
+          "name": "Fix-Required",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser",
+          "name": "Mouser",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "automotive",
+          "name": "automotive",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "category",
+          "name": "category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "current rating",
+          "name": "current rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L1",
+          "name": "device class L1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L2",
+          "name": "device class L2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "device class L3",
+          "name": "device class L3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey description",
+          "name": "digikey description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey part number",
+          "name": "digikey part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "height",
+          "name": "height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "lead free",
+          "name": "lead free",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "library id",
+          "name": "library id",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer",
+          "name": "manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser part number",
+          "name": "mouser part number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ok",
+          "name": "ok",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "package",
+          "name": "package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "resistance",
+          "name": "resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "rohs",
+          "name": "rohs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range high",
+          "name": "temperature range high",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "temperature range low",
+          "name": "temperature range low",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage rating",
+          "name": "voltage rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attribute",
+          "name": "Attribute",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Attribut",
+          "name": "Attribut",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -668,7 +902,7 @@
         "uuid": "56bb87b1-d063-468b-8e41-f1e1b1faddd7"
       }
     ],
-    "used_designators": "#FLG1-9,#PWR1-106,C1-32,C45,C62,D1-9,D59-62,F1-2,FB1,J1-6,J16-19,JP1,L1,LED1,Q1-15,R1-77,R118,TP1-7,U1-17,Y1",
+    "used_designators": "#FLG1-9,#PWR1-106,10K1-3,C1-32,C45,C62,D1-10,D59-62,F1-2,FB1,H1-4,J1-6,J16-19,JP1,L1,LED1,Q1-15,R1-77,R118,TP1-7,U1-17,Y1",
     "variants": []
   },
   "sheets": [
