@@ -597,6 +597,12 @@
         },
         {
           "group_by": false,
+          "label": "Attribute",
+          "name": "Attribute",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -839,12 +845,6 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Attribute",
-          "name": "Attribute",
           "show": false
         },
         {

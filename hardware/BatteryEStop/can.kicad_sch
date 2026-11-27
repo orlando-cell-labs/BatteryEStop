@@ -2058,7 +2058,7 @@
 				)
 			)
 		)
-		(property "Attribute" "50V"
+		(property "Attribute" ""
 			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -2113,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "16V"
 			(at 101.6 48.26 0)
 			(hide yes)
 			(show_name no)

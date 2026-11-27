@@ -8384,7 +8384,7 @@
 				)
 			)
 		)
-		(property "Attribute" "16V"
+		(property "Attribute" ""
 			(at 36.83 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -8429,6 +8429,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 36.83 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" "16V"
 			(at 36.83 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -8964,7 +8975,7 @@
 				)
 			)
 		)
-		(property "Attribute" "16V"
+		(property "Attribute" ""
 			(at 36.83 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9009,6 +9020,17 @@
 			)
 		)
 		(property "Comment" ""
+			(at 36.83 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attributes" "16V"
 			(at 36.83 107.95 90)
 			(hide yes)
 			(show_name no)

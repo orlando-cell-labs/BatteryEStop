@@ -4274,7 +4274,7 @@
 				)
 			)
 		)
-		(property "Attribute" "35V"
+		(property "Attribute" ""
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4329,7 +4329,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "100V"
 			(at 140.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Attribute" "25V"
+		(property "Attribute" ""
 			(at 199.39 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6617,7 +6617,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "25V"
 			(at 199.39 58.42 0)
 			(hide yes)
 			(show_name no)

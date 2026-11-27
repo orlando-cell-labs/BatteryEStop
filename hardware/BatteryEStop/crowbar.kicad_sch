@@ -4265,7 +4265,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
+		(property "Attribute" ""
 			(at 163.83 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4276,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 163.83 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4848,7 +4848,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
+		(property "Attribute" ""
 			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4859,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 86.36 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5127,7 +5127,7 @@
 				)
 			)
 		)
-		(property "Attribute" "35V"
+		(property "Attribute" ""
 			(at 139.7 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5182,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "35V"
 			(at 139.7 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5844,7 +5844,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
+		(property "Attribute" ""
 			(at 86.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5855,7 +5855,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 86.36 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5947,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Attribute" "35V"
+		(property "Attribute" ""
 			(at 104.14 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6002,7 +6002,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "35V"
 			(at 104.14 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6397,7 +6397,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
+		(property "Attribute" ""
 			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6408,7 +6408,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 77.47 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6500,7 +6500,7 @@
 				)
 			)
 		)
-		(property "Attribute" "3W"
+		(property "Attribute" ""
 			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6511,7 +6511,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "3W"
 			(at 50.8 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6927,18 +6927,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
-			(at 163.83 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 163.83 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7030,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Attribute" "0.1%"
+		(property "Attribute" ""
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7041,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "0.1%"
 			(at 77.47 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7353,7 +7342,7 @@
 				)
 			)
 		)
-		(property "Attribute" "35V"
+		(property "Attribute" ""
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7408,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "35V"
 			(at 104.14 50.8 0)
 			(hide yes)
 			(show_name no)

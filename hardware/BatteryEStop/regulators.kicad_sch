@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Attribute" "100V"
+		(property "Attribute" ""
 			(at 68.58 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3225,7 +3225,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "100V"
 			(at 68.58 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Attribute" "50V"
+		(property "Attribute" ""
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3658,7 +3658,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "16V"
 			(at 157.48 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -3749,7 +3749,7 @@
 				)
 			)
 		)
-		(property "Attribute" "63V"
+		(property "Attribute" ""
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3804,7 +3804,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "63V"
 			(at 78.74 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3971,7 +3971,7 @@
 				)
 			)
 		)
-		(property "Attribute" "100V"
+		(property "Attribute" ""
 			(at 86.36 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4026,7 +4026,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "100V"
 			(at 86.36 87.63 90)
 			(hide yes)
 			(show_name no)
@@ -4406,7 +4406,7 @@
 				)
 			)
 		)
-		(property "Attribute" "50V"
+		(property "Attribute" ""
 			(at 111.76 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4461,7 +4461,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "50V"
 			(at 111.76 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4550,7 +4550,7 @@
 				)
 			)
 		)
-		(property "Attribute" "16V"
+		(property "Attribute" ""
 			(at 185.42 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4605,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "16V"
 			(at 185.42 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -5900,7 +5900,7 @@
 				)
 			)
 		)
-		(property "Attribute" "50V"
+		(property "Attribute" ""
 			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5955,7 +5955,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "50V"
 			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6200,7 +6200,7 @@
 				)
 			)
 		)
-		(property "Attribute" "100V"
+		(property "Attribute" ""
 			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6255,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "100V"
 			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6908,7 +6908,7 @@
 				)
 			)
 		)
-		(property "Attribute" "16V"
+		(property "Attribute" ""
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6963,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "16V"
 			(at 177.8 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7054,7 +7054,7 @@
 				)
 			)
 		)
-		(property "Attribute" "16V"
+		(property "Attribute" ""
 			(at 207.01 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7109,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "16V"
 			(at 207.01 68.58 0)
 			(hide yes)
 			(show_name no)

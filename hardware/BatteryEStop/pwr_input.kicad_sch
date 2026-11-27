@@ -3267,7 +3267,7 @@
 				)
 			)
 		)
-		(property "Attribute" "100V"
+		(property "Attribute" ""
 			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -3322,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Attributes" ""
+		(property "Attributes" "100V"
 			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
